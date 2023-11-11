@@ -4,6 +4,8 @@
 import time, random, sys, math
 import cairo
 
+# nya nya mau mau mau! :3 ~jana
+
 def draw_14_seg_disp(ctx, x, y, scale, col, character):
 	# normals
 	xn, yn = 0.707108562*scale, 1*scale
@@ -34,22 +36,72 @@ def draw_14_seg_disp(ctx, x, y, scale, col, character):
 					 cairo.FONT_SLANT_NORMAL,
 					 cairo.FONT_WEIGHT_NORMAL)
 	xbearing, ybearing, width, height, dx, dy = ctx.text_extents(character)
-	ctx.move_to(x+xn/2-width/2-xbearing, y+yn/2-height/2-ybearing)
-	ctx.show_text(character)
+	if(character != "Y"):
+		ctx.move_to(x+xn/2-width/2-xbearing, y+yn/2-height/2-ybearing)
+		ctx.show_text(character)
+	else:
+		ctx.move_to(x+xn/2+width/2+xbearing, y+yn/2+height/2+ybearing)
+		ctx.save()
+		ctx.rotate(180*(3.141/180))
+		ctx.show_text(character)
+		ctx.restore()
 	ctx.fill()
 
+
 # nya
+print("Generating Display")
 WIDTH, HEIGHT = 1000, 1414
 surface = cairo.SVGSurface("gpn22_ccdr.svg", WIDTH, HEIGHT)
 ctx = cairo.Context(surface)
 ctx.scale(HEIGHT, HEIGHT)
 
-# PCB
+# BG
 ctx.rectangle(0, 0, 1, 1)
-ctx.set_source_rgb(0.0, 0.1765, 0.01569)
+ctx.set_source_rgb(0.165, 0.165, 0.165)
 ctx.fill()
 
-# write common code() different roots
+# lets generate some roots
+root_str = [[0, 0, ""]]
+seed = ["alerta", "anti", "fascista~"]
+start = [2, 11, 15]
+# "char", x rule, [y rules, follow]
+rules = {	"|" : [1, [[0, "YYYYYYYYYYYY\\\\//()()| "]]],
+			"Y" : [1, [[1, "\\\\\\)))||| '"],
+					   [-1, "///(((||| '"]]],
+			"\\": [1, [[1, "YYYY//(((||| '"]]],
+			"/" : [1, [[-1, "YYYY\\\\)))||| '"]]],
+			"'" : [1, []],
+			" " : [1, []],
+			")" : [1, [[-1, "YYYY///(((||| "]]],
+			"(" : [1, [[1, "YYYY\\\\\\)))||| "]]]}
+
+for i in range(len(start)):
+	axiom = [start[i], 0, "|"]
+	alive = True
+	random.seed(seed[i])
+	root_str.append(axiom)
+	head = [axiom]
+
+	while head and alive:
+		t = head[0]
+		head.pop(0)
+		r = rules[t[2]]
+		new_y = t[1]+r[0]
+
+		for b in r[1]:
+			new_x = b[0] + t[0]
+			opt_len = len(b[1])
+			new_char = b[1][random.randint(0, opt_len-1)]
+			new_root = [new_x, new_y, new_char]
+			head.append(new_root)
+			root_str.append(new_root)
+		
+		if(new_y > 8 or head == []):
+			alive = False
+
+
+
+# write common code() different roots, append roots
 ccdr_str = [[ 2,14,"C"],
 			[ 3,14,"O"],
 			[ 4,14,"M"],
@@ -80,6 +132,7 @@ ccdr_str = [[ 2,14,"C"],
 			[16,15,"T"],
 			[17,15,"S"]]
 
+ccdr_str = root_str + ccdr_str
 _x,_y,_scale = 20, 18, 0.05
 
 for x in range(_x):
@@ -101,7 +154,8 @@ footer = cairo.ImageSurface.create_from_png("gpn22_footer.png")
 w, h = footer.get_width(), footer.get_height()
 print(w,h,WIDTH, HEIGHT)
 interm = cairo.ImageSurface(cairo.FORMAT_ARGB32, w,h)
-ictx = cairo.Context(interm)
+ictx = cairo.Context(inte
+rm)
 ictx.set_source_surface(footer, -300, -10)
 print(interm.get_width(),interm.get_height())
 ictx.paint()
@@ -113,10 +167,42 @@ ctx.set_source_surface(interm, 0, 0)
 ctx.paint()
 '''
 
+# Write SVG
+print("Writing SVG")
 surface.finish()
 surface.flush()
 
-# hacky whacky stuff, search and replace on svg
+# hacky whacky stuff, search and replace on svg to add filters and such
+exit() # do not do this for now, it just does not work well (yet >:3)
+# please open the output file in inkscape
+# 1. mark everything and ungroup it
+# 2. click on 1 bright green char, marking it
+# 3. right click → slect same → same fill color, all bright chars should be selected now
+# 4. duplicate and place exactly on old chars, keep selection active(!)
+# 5. go to filters → Blurs → Blur and select 20 20, apply
+# 6. all chars should glow now
+# 7. place footer, it uses the font NewStroke, which I couldn't get as ttf, just as .c/.h files
+
+print("Modifying SVG")
+svg = open("gpn22_ccdr.svg.raw", 'r')
+
+# Blur
+text = [x for x in svg.read().splitlines() if x]
+
+filt = "<filter id=\"f1\" x=\"0\" y=\"0\">\n<feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"20 20\" />\n</filter>"
+filt_handle = "<g style=\"fill:rgb(0%,99.6%,71%);fill-opacity:1;filter:url(#f1)\">"
+
+for k, l in enumerate(text):
+	if("<defs>" in l):
+		text.insert(k+1, filt)
+
+	if("<g style=\"fill:rgb(0%,99.6%,71%);fill-opacity:1;\">" in l):
+		text.insert(k+3, filt_handle)
+		text.insert(k+4, text[k+1])
+		text.insert(k+5, text[k+2])
 
 
-#svg = open("gpn22_ccdr.svg")
+out = open("gpn22_ccdr.svg", 'w')
+out.write("\n".join(text))
+out.close()
+svg.close()
