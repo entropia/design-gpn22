@@ -4,6 +4,7 @@
 import random, sys, math
 import yaml
 import cairo
+import subprocess
 
 # nya nya mau mau mau! :3 ~jana
 
@@ -29,7 +30,9 @@ class design():
 				self.color_segment_on = conf["color"]["segment_on"]
 				self.color_segment_off = conf["color"]["segment_off"]
 				self.color_segment_bg = conf["color"]["segment_bg"]
-				self.blur = conf["glow_blur"]
+
+				self.run_blur = conf["blur"]["blur"]
+				self.blur = conf["blur"]["strength"]
 
 				self.root_seed = conf["root"]["seed"]
 				self.root_start = conf["root"]["start"]
@@ -37,6 +40,10 @@ class design():
 				self.root_depth = conf["root"]["depth"]
 
 				self.texts = conf["text"]
+
+				self.print = conf["png"]["print"]
+				self.print_width = conf["png"]["width"]
+				self.print_height = conf["png"]["height"]
 
 			except yaml.YAMLError as exc:
 				print(exc)
@@ -193,6 +200,14 @@ class design():
 		out.close()
 		svg.close()
 
+	def render_svg_to_png(self):
+		print("Rendering" + self.filename + "to png")
+
+		subprocess.run(["inkscape", '--export-type=png', \
+						f'--export-filename={"out/png/"+ self.filename[:-4]}', \
+						f'--export-width={self.print_width}', f'--export-height={self.print_height}', \
+						"out/"+ "mod_" + self.filename])
+
 
 if __name__ == "__main__":
 	args = sys.argv[1:]
@@ -204,7 +219,10 @@ if __name__ == "__main__":
 			gpn22.draw_14_seg_chars(gpn22.gen_root(), 1)
 			gpn22.draw_texts()
 			gpn22.save()
-			gpn22.do_the_hacky_whacky_svg_blur()
+			if gpn22.run_blur:
+				gpn22.do_the_hacky_whacky_svg_blur()
+			if gpn22.print:
+				gpn22.render_svg_to_png()
 	else:
 		print("Usage: python gpn22_ccdr_gen.py <config> <config> <...>")
 

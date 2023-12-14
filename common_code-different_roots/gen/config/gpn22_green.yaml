@@ -5,7 +5,14 @@ grid: !!python/tuple [20, 18]
 grid_padding: !!python/tuple [0, 2]
 scale: 0.05
 
-glow_blur: 40 # apply some blur, let the segments shine :3 
+blur:
+  blur: true
+  strength: 40 # apply some blur, let the segments shine :3 
+
+png:
+  print: true
+  width: 5833 # 420 dpi
+  height: 8248
 
 color:
   background:  !!python/tuple [0.165, 0.165, 0.165]
