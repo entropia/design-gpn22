@@ -5,6 +5,8 @@ grid: !!python/tuple [20, 18]
 grid_padding: !!python/tuple [0, 2]
 scale: 0.05
 
+glow_blur: 40 # apply some blur, let the segments shine :3 
+
 color:
   background:  !!python/tuple [0.165, 0.165, 0.165]
   segment_on:  !!python/tuple [0.988, 0.941, 0.365] # glow color #7F160B

@@ -29,6 +29,7 @@ class design():
 				self.color_segment_on = conf["color"]["segment_on"]
 				self.color_segment_off = conf["color"]["segment_off"]
 				self.color_segment_bg = conf["color"]["segment_bg"]
+				self.blur = conf["glow_blur"]
 
 				self.root_seed = conf["root"]["seed"]
 				self.root_start = conf["root"]["start"]
@@ -36,8 +37,6 @@ class design():
 				self.root_depth = conf["root"]["depth"]
 
 				self.texts = conf["text"]
-
-				print(self.xnorm, self.ynorm)
 
 			except yaml.YAMLError as exc:
 				print(exc)
@@ -155,6 +154,46 @@ class design():
 
 		return self.root_buf
 
+	# Okay, okay, I know, this is reaaaaaaly hacky
+	# we are inserting a blur filter with the url #f1 into <defs> here
+	# then we are looking for all the lines containing the segment on color
+	# we duplicate them all into one <g> and append it
+	# the <g> will be linked to #f1
+	# finally we will remove the main group from cairo
+	def do_the_hacky_whacky_svg_blur(self):
+		print("Modifying SVG", "out/" + self.filename," >:3")
+		
+		svg = open("out/" + self.filename, 'r')
+		text = [x for x in svg.read().splitlines() if x]
+
+		filt = "<filter id=\"f1\" x=\"0\" y=\"0\">\n<feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"{0:g} {1:g}\" />\n</filter>".format(self.blur, self.blur)
+		new_group = ["<g style=\"fill:rgb({0:g}%,{1:g}%,{2:g}%);fill-opacity:1;filter:url(#f1)\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100)]
+
+		for k, l in enumerate(text):
+			if "<defs>" in l:
+				text.insert(k+1, filt)
+
+			if "<g id=\"surface" in l:
+				text.pop(k)
+
+			if "<g style=\"fill:rgb({0:g}%,{1:g}%,{2:g}%);fill-opacity:1;\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100) in l:
+				new_group.append(text[k  ])
+				new_group.append(text[k+1])
+				new_group.append(text[k+2])
+
+			if "</svg>" in l:				
+				new_group.append("</g>")
+
+		text.pop(len(text)-2)
+
+		out = open("out/"+ "mod_" + self.filename, 'w')
+		
+		out.write("\n".join(text[:-1] + new_group + text[-1:]))
+
+		out.close()
+		svg.close()
+
+
 if __name__ == "__main__":
 	args = sys.argv[1:]
 	if args:
@@ -165,43 +204,8 @@ if __name__ == "__main__":
 			gpn22.draw_14_seg_chars(gpn22.gen_root(), 1)
 			gpn22.draw_texts()
 			gpn22.save()
+			gpn22.do_the_hacky_whacky_svg_blur()
 	else:
 		print("Usage: python gpn22_ccdr_gen.py <config> <config> <...>")
 
 	exit()
-
-
-# hacky whacky stuff, search and replace on svg to add filters and such
- # do not do this for now, it just does not work well (yet >:3)
-# please open the output file in inkscape
-# 1. mark everything and ungroup it
-# 2. click on 1 bright green char, marking it
-# 3. right click → slect same → same fill color, all bright chars should be selected now
-# 4. duplicate and place exactly on old chars, keep selection active(!)
-# 5. go to filters → Blurs → Blur and select 20 20, apply
-# 6. all chars should glow now
-# 7. place footer, it uses the font NewStroke, which I couldn't get as ttf, just as .c/.h files
-
-print("Modifying SVG")
-svg = open("gpn22_ccdr.svg.raw", 'r')
-
-# Blur
-text = [x for x in svg.read().splitlines() if x]
-
-filt = "<filter id=\"f1\" x=\"0\" y=\"0\">\n<feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"20 20\" />\n</filter>"
-filt_handle = "<g style=\"fill:rgb(0%,99.6%,71%);fill-opacity:1;filter:url(#f1)\">"
-
-for k, l in enumerate(text):
-	if("<defs>" in l):
-		text.insert(k+1, filt)
-
-	if("<g style=\"fill:rgb(0%,99.6%,71%);fill-opacity:1;\">" in l):
-		text.insert(k+3, filt_handle)
-		text.insert(k+4, text[k+1])
-		text.insert(k+5, text[k+2])
-
-
-out = open("gpn22_ccdr.svg", 'w')
-out.write("\n".join(text))
-out.close()
-svg.close()

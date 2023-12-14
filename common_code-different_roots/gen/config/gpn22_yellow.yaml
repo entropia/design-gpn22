@@ -5,6 +5,8 @@ grid: !!python/tuple [20, 18] # background grid size, 20x20 = full dinA* with sc
 grid_padding: !!python/tuple [0, 2]
 scale: 0.05 # scale of single segment
 
+glow_blur: 40 # apply some blur, let the segments shine :3 
+
 color:
   background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
   segment_on:  !!python/tuple [0.984, 0.984, 0.157] # segment on color
