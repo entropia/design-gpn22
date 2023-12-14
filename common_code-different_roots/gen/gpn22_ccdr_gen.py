@@ -17,12 +17,13 @@ class design():
 				self.filename = conf["filename"]
 				self.surface = cairo.SVGSurface("out/" + self.filename, conf["width"], conf["height"])
 				self.ctx = cairo.Context(self.surface)
-				self.ctx.scale(max(conf["height"], conf["width"]), max(conf["height"], conf["width"]))
+				#self.ctx.scale(max(conf["height"], conf["width"]), max(conf["height"], conf["width"]))
+				self.ctx.scale(1414, 1414)
 				self.grid = conf["grid"]
 				self.grid_padding = conf["grid_padding"]
 				self.scale = conf["scale"]
-				self.xnorm = min(self.w/self.h, 1)
-				self.ynorm = max(self.w/self.h, 1)
+				self.xnorm = min(self.w/self.h, self.h/self.w)
+				self.ynorm = 1
 				
 				self.color_background = conf["color"]["background"]
 				self.color_segment_on = conf["color"]["segment_on"]
@@ -35,6 +36,8 @@ class design():
 				self.root_depth = conf["root"]["depth"]
 
 				self.texts = conf["text"]
+
+				print(self.xnorm, self.ynorm)
 
 			except yaml.YAMLError as exc:
 				print(exc)
@@ -61,15 +64,21 @@ class design():
 	def draw_14_seg_disp_grid(self):	
 		for x in range(self.grid[0]):
 			for y in range(self.grid[1]):
-				self.draw_14_seg_disp(self.xnorm/(self.grid[0]+self.grid_padding[0])*x, self.ynorm/(self.grid[1]+self.grid_padding[1])*y, self.scale, " ")
+				if self.h > self.w:
+					self.draw_14_seg_disp(self.xnorm/(self.grid[0]+self.grid_padding[0])*x, self.ynorm/(self.grid[1]+self.grid_padding[1])*y, self.scale, " ")
+				else:
+					self.draw_14_seg_disp(self.ynorm/(self.grid[0]+self.grid_padding[0])*x, self.xnorm/(self.grid[1]+self.grid_padding[1])*y, self.scale, " ")
 
 	# char drawing aligner and helper
 	def draw_14_seg_chars(self, chars, scaler, offx = 0, offy = 0):
 		for x in range(self.grid[0]):
 			for y in range(self.grid[1]):
 				for i in range(len(chars)):
-					if(x == chars[i][0] and y == chars[i][1]):
-						self.draw_14_seg_disp(self.xnorm/self.grid[0]*(x*scaler)+self.xnorm/self.grid[0]*offx, self.ynorm/(self.grid[1]+2)*y+self.xnorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
+					if x == chars[i][0] and y == chars[i][1]:
+						if self.h > self.w:
+							self.draw_14_seg_disp(self.xnorm/(self.grid[0]+self.grid_padding[0])*(x*scaler)+self.xnorm/self.grid[0]*offx, self.ynorm/(self.grid[1]+self.grid_padding[1])*y+self.xnorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
+						else:
+							self.draw_14_seg_disp(self.ynorm/(self.grid[0]+self.grid_padding[0])*(x*scaler)+self.ynorm/self.grid[0]*offx, self.xnorm/(self.grid[1]+self.grid_padding[1])*y+self.ynorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
 
 	# Render the 14 seg display
 	def draw_14_seg_disp(self, x, y, scale, character, rotate = False):
@@ -141,7 +150,7 @@ class design():
 					head.append(new_root)
 					self.root_buf.append(new_root)
 				
-				if(new_y > self.root_depth or head == []):
+				if new_y > self.root_depth or head == []:
 					alive = False
 
 		return self.root_buf

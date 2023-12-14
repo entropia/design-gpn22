@@ -2,6 +2,7 @@ filename: gpn22_yellow.svg # output file name
 width: 1000 # used for aspect ratio
 height: 1414 # used for aspect ratio
 grid: !!python/tuple [20, 18] # background grid size, 20x20 = full dinA* with scale 0.05
+grid_padding: !!python/tuple [0, 2]
 scale: 0.05 # scale of single segment
 
 color:

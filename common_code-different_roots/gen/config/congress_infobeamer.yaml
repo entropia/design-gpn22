@@ -1,7 +1,7 @@
 filename: congress_infobeamer.svg # output file name
-width: 1414.213562 # used for aspect ratio
+width: 1414 # used for aspect ratio
 height: 1000 # used for aspect ratio
-grid: !!python/tuple [16, 16] # background grid size, 20x20 = full dinA* with scale 0.05
+grid: !!python/tuple [30, 14] # background grid size, 20x20 = full dinA* with scale 0.05
 grid_padding: !!python/tuple [0, 0]
 scale: 0.05 # scale of single segment
 
@@ -48,15 +48,15 @@ text: # list of strings/chars to be placed
   #    - [15,15,"O"]
   #    - [16,15,"T"]
   #    - [17,15,"S"]
-  #- 2:
-  #  scaler: 3 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
-  #            # use x,y to move them by fractions of scalar
-  #  x: 2
-  #  y: 0
-  #  buf:
-  #    - [ 0,2,"G"]
-  #    - [ 1,2,"P"]
-  #    - [ 2,2,"N"]
-  #    - [ 3,2,"-"]
-  #    - [ 4,2,"2"]
-  #    - [ 5,2,"2"]
+  - 2:
+    scaler: 3 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+              # use x,y to move them by fractions of scalar
+    x: 1
+    y: 0
+    buf:
+      - [ 0,2,"G"]
+      - [ 1,2,"P"]
+      - [ 2,2,"N"]
+      - [ 3,2,"-"]
+      - [ 4,2,"2"]
+      - [ 5,2,"2"]

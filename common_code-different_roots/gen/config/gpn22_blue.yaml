@@ -2,6 +2,7 @@ filename: gpn22_blue.svg
 width: 1000
 height: 1414
 grid: !!python/tuple [20, 18]
+grid_padding: !!python/tuple [0, 2]
 scale: 0.05
 
 color:
