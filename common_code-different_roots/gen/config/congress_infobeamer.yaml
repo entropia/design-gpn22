@@ -1,0 +1,62 @@
+filename: congress_infobeamer.svg # output file name
+width: 1414.213562 # used for aspect ratio
+height: 1000 # used for aspect ratio
+grid: !!python/tuple [16, 16] # background grid size, 20x20 = full dinA* with scale 0.05
+grid_padding: !!python/tuple [0, 0]
+scale: 0.05 # scale of single segment
+
+color:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.0, 0.996, 0.71] # segment on color
+  segment_off: !!python/tuple [0.16, 0.3, 0.29] # segment off color
+  segment_bg:  !!python/tuple [0.1, 0.2, 0.19] # segment background (rectangle) color
+
+root:
+  seed: [] # n seeds = n start points. Leave empty ("") for random seed
+  start: [] # starting point position, number of elements must match seed
+  depth: 0 # max root depth before it dies
+
+text: # list of strings/chars to be placed
+  #- 1:
+  #  scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+  #  x: 0
+  #  y: 0
+  #  buf:
+  #    - [ 2,14,"C"]
+  #    - [ 3,14,"O"]
+  #    - [ 4,14,"M"]
+  #    - [ 5,14,"M"]
+  #    - [ 6,14,"O"]
+  #    - [ 7,14,"N"]
+  #    - [ 9,14,"C"]
+  #    - [10,14,"O"]
+  #    - [11,14,"D"]
+  #    - [12,14,"E"]
+  #    - [13,14,"("]
+  #    - [14,14,")"]
+  #    - [ 3,15,"D"]
+  #    - [ 4,15,"I"]
+  #    - [ 5,15,"F"]
+  #    - [ 6,15,"F"]
+  #    - [ 7,15,"E"]
+  #    - [ 8,15,"R"]
+  #    - [ 9,15,"E"]
+  #    - [10,15,"N"]
+  #    - [11,15,"T"]
+  #    - [13,15,"R"]
+  #    - [14,15,"O"]
+  #    - [15,15,"O"]
+  #    - [16,15,"T"]
+  #    - [17,15,"S"]
+  #- 2:
+  #  scaler: 3 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+  #            # use x,y to move them by fractions of scalar
+  #  x: 2
+  #  y: 0
+  #  buf:
+  #    - [ 0,2,"G"]
+  #    - [ 1,2,"P"]
+  #    - [ 2,2,"N"]
+  #    - [ 3,2,"-"]
+  #    - [ 4,2,"2"]
+  #    - [ 5,2,"2"]

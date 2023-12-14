@@ -1,0 +1,61 @@
+filename: gpn22_yellow.svg # output file name
+width: 1000 # used for aspect ratio
+height: 1414 # used for aspect ratio
+grid: !!python/tuple [20, 18] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.05 # scale of single segment
+
+color:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.984, 0.984, 0.157] # segment on color
+  segment_off: !!python/tuple [0.251, 0.161, 0.016] # segment off color
+  segment_bg:  !!python/tuple [0.125, 0.078, 0.047] # segment background (rectangle) color
+
+root:
+  seed: ["FUCK", "FRONTEX", "!"] # n seeds = n start points. Leave empty ("") for random seed
+  start: [3, 6, 14] # starting point position, number of elements must match seed
+  depth: 7 # max root depth before it dies
+
+text: # list of strings/chars to be placed
+  - 1:
+    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+    x: 0
+    y: 0
+    buf:
+      - [ 2,14,"C"]
+      - [ 3,14,"O"]
+      - [ 4,14,"M"]
+      - [ 5,14,"M"]
+      - [ 6,14,"O"]
+      - [ 7,14,"N"]
+      - [ 9,14,"C"]
+      - [10,14,"O"]
+      - [11,14,"D"]
+      - [12,14,"E"]
+      - [13,14,"("]
+      - [14,14,")"]
+      - [ 3,15,"D"]
+      - [ 4,15,"I"]
+      - [ 5,15,"F"]
+      - [ 6,15,"F"]
+      - [ 7,15,"E"]
+      - [ 8,15,"R"]
+      - [ 9,15,"E"]
+      - [10,15,"N"]
+      - [11,15,"T"]
+      - [13,15,"R"]
+      - [14,15,"O"]
+      - [15,15,"O"]
+      - [16,15,"T"]
+      - [17,15,"S"]
+  - 2:
+    scaler: 3 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+              # use x,y to move them by fractions of scalar
+    x: 1
+    y: 0
+    buf:
+      - [ 0,10,"G"]
+      - [ 1,10,"P"]
+      - [ 2,10,"N"]
+      - [ 3,10,"-"]
+      - [ 4,10,"2"]
+      - [ 5,10,"2"]
