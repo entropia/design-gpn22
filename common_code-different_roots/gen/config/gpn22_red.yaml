@@ -1,7 +1,7 @@
-filename: gpn22_red.svg
-width: 1000
-height: 1414
-grid: !!python/tuple [20, 18]
+filename: gpn22_red.svg # output file name
+width: 1000 # used for aspect ratio
+height: 1414 # used for aspect ratio
+grid: !!python/tuple [20, 18] # background grid size, 20x20 = full dinA* with scale 0.05
 grid_padding: !!python/tuple [0, 2]
 scale: 0.05
 
@@ -15,15 +15,15 @@ png:
   height: 8248
 
 color:
-  background:  !!python/tuple [0.165, 0.165, 0.165]
-  segment_on:  !!python/tuple [0.988, 0.941, 0.365] # glow color #7F160B
-  segment_off: !!python/tuple [0.498, 0.086, 0.043]
-  segment_bg:  !!python/tuple [0.2, 0.153, 0.149]
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [1.000, 1.000, 0.282] # segment on color
+  segment_off: !!python/tuple [0.388, 0.059, 0.059] # segment off color
+  segment_bg:  !!python/tuple [0.200, 0.153, 0.149] # segment background (rectangle) color
 
 root:
-  seed: ["g", "p", "N"]
-  start: [2, 8, 15]
-  depth: 7
+  seed: ["g", "p", "N"] # n seeds = n start points. Leave empty ("") for random seed
+  start: [2, 8, 15] # starting point position, number of elements must match seed
+  depth: 7 # max root depth before it dies
 
 text: # list of texts to be printed
   - 1:
@@ -43,7 +43,7 @@ text: # list of texts to be printed
     color:  !!python/tuple [1, 1, 1]
     string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
 
-segment:
+segment: # list of 14 segment chars to be placed with grid coordinates
   - 1:
     scaler: 1
     x: 0
