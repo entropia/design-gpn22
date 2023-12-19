@@ -1,10 +1,8 @@
 #! /usr/bin/env nix-shell
 #! nix-shell -i python3 -p python3 python3Packages.pycairo python3Packages.pyyaml
 
-import random, sys, math
-import yaml
-import cairo
-import subprocess
+import random, sys, math, subprocess
+import yaml, cairo
 
 # nya nya mau mau mau! :3 ~jana
 
@@ -34,16 +32,22 @@ class design():
 				self.run_blur = conf["blur"]["blur"]
 				self.blur = conf["blur"]["strength"]
 
-				self.root_seed = conf["root"]["seed"]
-				self.root_start = conf["root"]["start"]
-				self.root_buf = [[0, 0, ""]]
-				self.root_depth = conf["root"]["depth"]
+				if conf["root"]:
+					self.root_seed = conf["root"]["seed"]
+					self.root_start = conf["root"]["start"]
+					self.root_buf = [[0, 0, ""]]
+					self.root_depth = conf["root"]["depth"]
 
-				self.texts = conf["text"]
+				if conf["segment"]:
+					self.segments = conf["segment"]
 
-				self.print = conf["png"]["print"]
-				self.print_width = conf["png"]["width"]
-				self.print_height = conf["png"]["height"]
+				if conf["text"]:
+					self.texts = conf["text"]
+
+				if conf["png"]:
+					self.print = conf["png"]["print"]
+					self.print_width = conf["png"]["width"]
+					self.print_height = conf["png"]["height"]
 
 			except yaml.YAMLError as exc:
 				print(exc)
@@ -60,10 +64,22 @@ class design():
 		self.ctx.set_source_rgb(*self.color_background)
 		self.ctx.fill()
 
-	# generate the 14 seg texts
+	# draw the non 14 segment texts
 	def draw_texts(self):
 		if self.texts:
 			for t in self.texts:
+				self.ctx.set_font_size(t["size"])
+				self.ctx.select_font_face(t["font"], cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+				xbearing, ybearing, width, height, dx, dy = self.ctx.text_extents(t["string"])
+				self.ctx.move_to((self.xnorm*t["x"])-width/2-xbearing, (self.ynorm*t["y"])-height/2-ybearing)
+				self.ctx.set_source_rgb(*t["color"])
+				self.ctx.show_text(t["string"])
+				self.ctx.fill()
+
+	# generate the 14 seg segments
+	def draw_segments(self):
+		if self.segments:
+			for t in self.segments:
 				self.draw_14_seg_chars(t["buf"], t["scaler"], t["x"], t["y"])
 
 	# generate the background grid
@@ -106,10 +122,14 @@ class design():
 		self.ctx.move_to(x+xn/2-width/2-xbearing, y+yn/2-height/2-ybearing)
 		self.ctx.show_text("~")
 		self.ctx.fill()
+		self.ctx.set_source_rgb(*self.color_segment_off)
+		self.ctx.move_to(x+xn/2-width/2-xbearing, y+yn/2-height/2-ybearing)
+		self.ctx.show_text(".")
+		self.ctx.fill()
 
 		# lit segments
 		self.ctx.set_source_rgb(*self.color_segment_on)
-		if not rotate:
+		if character != "Y": #not rotate:
 			self.ctx.move_to(x+xn/2-width/2-xbearing, y+yn/2-height/2-ybearing)
 			self.ctx.show_text(character)
 		else:
@@ -119,21 +139,22 @@ class design():
 			self.ctx.show_text(character)
 			self.ctx.restore()
 
-		self.ctx.fill()
+		self.ctx.fill()	
 
-	# root generator, kind of L-System, but just kind of
+	# root generator, kind of L-System, but just kind of..
 	def gen_root(self):
+		
 		# lets generate some roots
-		# "char", x rule, [y rules, follow]
+		# "char", x rule, [y rules, next char (hacky weighted random)]
 		rules = {	"|" : [1, [[0, "YYYYYYYYYYYY\\\\//()()| "]]],
 					"Y" : [1, [[1, "\\\\\\)))||| '"],
 							   [-1, "///(((||| '"]]],
 					"\\": [1, [[1, "YYYY//(((||| '"]]],
 					"/" : [1, [[-1, "YYYY\\\\)))||| '"]]],
-					"'" : [1, []],
-					" " : [1, []],
 					")" : [1, [[-1, "YYYY///(((||| "]]],
-					"(" : [1, [[1, "YYYY\\\\\\)))||| "]]]}
+					"(" : [1, [[1, "YYYY\\\\\\)))||| "]]],
+					"'" : [1, []],
+					" " : [1, []]}
 
 		for i in range(len(self.root_start)):
 			axiom = [self.root_start[i], 0, "|"]
@@ -193,7 +214,7 @@ class design():
 
 		text.pop(len(text)-2)
 
-		out = open("out/"+ "mod_" + self.filename, 'w')
+		out = open("out/"+ self.filename, 'w')
 		
 		out.write("\n".join(text[:-1] + new_group + text[-1:]))
 
@@ -201,12 +222,12 @@ class design():
 		svg.close()
 
 	def render_svg_to_png(self):
-		print("Rendering" + self.filename + "to png")
+		print("Rendering " + self.filename + " to png")
 
 		subprocess.run(["inkscape", '--export-type=png', \
-						f'--export-filename={"out/png/"+ self.filename[:-4]}', \
+						f'--export-filename={"out/png/" + self.filename[:-4]}', \
 						f'--export-width={self.print_width}', f'--export-height={self.print_height}', \
-						"out/"+ "mod_" + self.filename])
+						"out/" + self.filename])
 
 
 if __name__ == "__main__":
@@ -217,6 +238,7 @@ if __name__ == "__main__":
 			gpn22.draw_bg()
 			gpn22.draw_14_seg_disp_grid()
 			gpn22.draw_14_seg_chars(gpn22.gen_root(), 1)
+			gpn22.draw_segments()
 			gpn22.draw_texts()
 			gpn22.save()
 			if gpn22.run_blur:

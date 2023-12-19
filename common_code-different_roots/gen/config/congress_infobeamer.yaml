@@ -10,9 +10,9 @@ blur:
   strength: 40 # apply some blur, let the segments shine :3 
 
 png:
-  print: true
-  width: 8248 # 420 dpi
-  height: 5833
+  print: false
+  width: 1920 # 420 dpi
+  height: 1358
 
 color:
   background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
@@ -25,78 +25,78 @@ root:
   seed: ["chaos ", "communication", "congress"] # n start points = n seeds. Leave empty ("") for random seed
   depth: 14 # max root depth before it dies
 
-text: # list of strings/chars to be placed
-  - 0:
-    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
-    x: 0
-    y: 0
-    buf:
-      - [ 4, 8," "]
-      - [ 5, 8," "]
-      - [ 6, 8," "]
-      - [ 7, 8," "]
-      - [ 8, 8," "]
-      - [ 9, 8," "]
-      - [10, 8," "]
-      - [11, 8," "]
-      - [12, 8," "]
-      - [13, 8," "]
-      - [14, 8," "]
-      - [15, 8," "]
-      - [16, 8," "]
-      - [17, 8," "]
-      - [18, 8," "]
-      - [19, 8," "]
-      - [18, 9," "]
-      - [20, 9," "]
-      - [21, 9," "]
-      - [22, 9," "]
-      - [23, 9," "]
-      - [24, 9," "]
-      - [ 5, 9," "]
-      - [ 5, 9," "]
-      - [ 5, 9," "]
-      - [ 5, 9," "]
+segment: # list of strings/chars to be placed
   - 1:
     scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
     x: 0
     y: 0
     buf:
-      - [ 5, 9,  "C"]
-      - [ 6, 9,  "O"]
-      - [ 7, 9,  "M"]
-      - [ 8, 9,  "M"]
-      - [ 9, 9,  "O"]
-      - [10, 9,  "N"]
-      - [12, 9,  "C"]
-      - [13, 9,  "O"]
-      - [14, 9,  "D"]
-      - [15, 9,  "E"]
-      - [16, 9,  "("]
-      - [17, 9,  ")"]
-      - [ 8, 10, "D"]
-      - [ 9, 10, "I"]
-      - [10, 10, "F"]
-      - [11, 10, "F"]
-      - [12, 10, "E"]
-      - [13, 10, "R"]
-      - [14, 10, "E"]
-      - [15, 10, "N"]
-      - [16, 10, "T"]
-      - [18, 10, "R"]
-      - [19, 10, "O"]
-      - [20, 10, "O"]
-      - [21, 10, "T"]
-      - [22, 10, "S"]
+      - [ 4, 7,  "C"]
+      - [ 5, 7,  "O"]
+      - [ 6, 7,  "M"]
+      - [ 7, 7,  "M"]
+      - [ 8, 7,  "O"]
+      - [ 9, 7,  "N"]
+      - [11, 7,  "C"]
+      - [12, 7,  "O"]
+      - [13, 7,  "D"]
+      - [14, 7,  "E"]
+      - [15, 7,  "("]
+      - [16, 7,  ")"]
+      - [ 9, 8, "D"]
+      - [10, 8, "I"]
+      - [11, 8, "F"]
+      - [12, 8, "F"]
+      - [13, 8, "E"]
+      - [14, 8, "R"]
+      - [15, 8, "E"]
+      - [16, 8, "N"]
+      - [17, 8, "T"]
+      - [19, 8, "R"]
+      - [20, 8, "O"]
+      - [21, 8, "O"]
+      - [22, 8, "T"]
+      - [23, 8, "S"]
   - 2:
     scaler: 4 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
               # use x,y to move them by fractions of scalar
     x: 2
     y: 0
     buf:
-      - [0, 4, "G"]
-      - [1, 4, "P"]
-      - [2, 4, "N"]
-      - [3, 4, "-"]
-      - [4, 4, "2"]
-      - [5, 4, "2"]
+      - [0, 2, "G"]
+      - [1, 2, "P"]
+      - [2, 2, "N"]
+      - [3, 2, "-"]
+      - [4, 2, "2"]
+      - [5, 2, "2"]
+  - 3:
+    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+    x: 0
+    y: 0
+    buf:
+      - [ 5, 10, "3"]
+      - [ 6, 10, "0"]
+      - [ 7, 10, "."]
+      - [ 8, 10, "0"]
+      - [ 9, 10, "6"]
+      - [10, 10, " "]
+      - [11, 10, "-"]
+      - [12, 10, " "]
+      - [13, 10, "0"]
+      - [14, 10, "2"]
+      - [15, 10, "."]
+      - [16, 10, "0"]
+      - [17, 10, "6"]
+      - [18, 10, "."]
+      - [19, 10, "2"]
+      - [20, 10, "0"]
+      - [21, 10, "2"]
+      - [22, 10, "4"]
+      - [10, 11, "g"]
+      - [11, 11, "u"]
+      - [12, 11, "l"]
+      - [13, 11, "a"]
+      - [14, 11, "s"]
+      - [15, 11, "."]
+      - [16, 11, "c"]
+      - [17, 11, "h"]

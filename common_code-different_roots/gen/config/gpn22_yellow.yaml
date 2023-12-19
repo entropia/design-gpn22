@@ -25,7 +25,25 @@ root:
   start: [3, 6, 14] # starting point position, number of elements must match seed
   depth: 7 # max root depth before it dies
 
-text: # list of strings/chars to be placed
+text: # list of texts to be printed
+  - 1:
+    size: 0.035
+    font: "Oxanium"
+    x: 0.5
+    y: 0.935
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "30.05 - 02.06.2024  |  ZKM/HFG Karlsruhe"
+  - 2:
+    size: 0.035
+    font: "Oxanium"
+    x: 0.5
+    y: 0.975
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
+
+segment: # list of strings/chars to be placed
   - 1:
     scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
     x: 0

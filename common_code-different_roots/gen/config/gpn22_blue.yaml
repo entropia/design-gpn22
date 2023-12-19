@@ -25,7 +25,25 @@ root:
   start: [6, 11, 16]
   depth: 7
 
-text:
+text: # list of texts to be printed
+  - 1:
+    size: 0.035
+    font: "Oxanium"
+    x: 0.5
+    y: 0.935
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "30.05 - 02.06.2024  |  ZKM/HFG Karlsruhe"
+  - 2:
+    size: 0.035
+    font: "Oxanium"
+    x: 0.5
+    y: 0.975
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
+
+segment:
   - 1:
     scaler: 1
     x: 0
