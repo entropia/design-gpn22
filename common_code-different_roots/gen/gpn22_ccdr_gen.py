@@ -32,19 +32,19 @@ class design():
 				self.run_blur = conf["blur"]["blur"]
 				self.blur = conf["blur"]["strength"]
 
-				if conf["root"]:
+				if conf.get("root"):
 					self.root_seed = conf["root"]["seed"]
 					self.root_start = conf["root"]["start"]
 					self.root_buf = [[0, 0, ""]]
 					self.root_depth = conf["root"]["depth"]
 
-				if conf["segment"]:
+				if conf.get("segment"):
 					self.segments = conf["segment"]
 
-				if conf["text"]:
+				if conf.get("text"):
 					self.texts = conf["text"]
 
-				if conf["png"]:
+				if conf.get("png"):
 					self.print = conf["png"]["print"]
 					self.print_width = conf["png"]["width"]
 					self.print_height = conf["png"]["height"]
@@ -66,7 +66,7 @@ class design():
 
 	# draw the non 14 segment texts
 	def draw_texts(self):
-		if self.texts:
+		if 'self.texts' in locals():
 			for t in self.texts:
 				self.ctx.set_font_size(t["size"])
 				self.ctx.select_font_face(t["font"], cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
@@ -78,7 +78,7 @@ class design():
 
 	# generate the 14 seg segments
 	def draw_segments(self):
-		if self.segments:
+		if 'self.segments' in locals():
 			for t in self.segments:
 				self.draw_14_seg_chars(t["buf"], t["scaler"], t["x"], t["y"])
 
@@ -143,7 +143,6 @@ class design():
 
 	# root generator, kind of L-System, but just kind of..
 	def gen_root(self):
-		
 		# lets generate some roots
 		# "char", x rule, [y rules, next char (hacky weighted random)]
 		rules = {	"|" : [1, [[0, "YYYYYYYYYYYY\\\\//()()| "]]],
