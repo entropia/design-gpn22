@@ -14,35 +14,43 @@ class design():
 
 				self.w, self.h = conf["width"], conf["height"]
 				self.filename = conf["filename"]
-				self.surface = cairo.SVGSurface("out/" + self.filename, conf["width"], conf["height"])
-				self.ctx = cairo.Context(self.surface)
+				self.outdir = "out/"
+
 				#self.ctx.scale(max(conf["height"], conf["width"]), max(conf["height"], conf["width"]))
-				self.ctx.scale(1414, 1414)
 				self.grid = conf["grid"]
-				self.grid_padding = conf["grid_padding"]
 				self.scale = conf["scale"]
 				self.xnorm = min(self.w/self.h, self.h/self.w)
 				self.ynorm = 1
 				
-				self.color_background = conf["color"]["background"]
-				self.color_segment_on = conf["color"]["segment_on"]
-				self.color_segment_off = conf["color"]["segment_off"]
-				self.color_segment_bg = conf["color"]["segment_bg"]
+				self.color_background = conf["colors"]["background"]
+				self.color_segment_on = conf["colors"]["segment_on"]
+				self.color_segment_off = conf["colors"]["segment_off"]
+				self.color_segment_bg = conf["colors"]["segment_bg"]
 
 				self.run_blur = conf["blur"]["blur"]
 				self.blur = conf["blur"]["strength"]
 
-				if conf.get("root"):
-					self.root_seed = conf["root"]["seed"]
-					self.root_start = conf["root"]["start"]
-					self.root_buf = [[0, 0, ""]]
-					self.root_depth = conf["root"]["depth"]
+				self.blurs = []
 
-				if conf.get("segment"):
-					self.segments = conf["segment"]
+				if conf.get("roots"):
+					self.root_seed = conf["roots"]["seed"]
+					self.root_start = conf["roots"]["start"]
+					self.root_buf = []
+					self.root_depth = conf["roots"]["depth"]
+					self.root_blur = conf["roots"]["blur"]
 
-				if conf.get("text"):
-					self.texts = conf["text"]
+				if conf.get("segments"):
+					self.segments = conf["segments"]
+
+				if conf.get("panel"):
+					self.panel = conf["panel"]
+					self.panel_x = conf["panel"]["x"]
+					self.panel_y = conf["panel"]["y"]
+					self.panel_w = conf["panel"]["w"]
+					self.panel_h = conf["panel"]["h"]
+
+				if conf.get("texts"):
+					self.texts = conf["texts"]
 
 				if conf.get("png"):
 					self.print = conf["png"]["print"]
@@ -52,9 +60,14 @@ class design():
 			except yaml.YAMLError as exc:
 				print(exc)
 
+	def create_surface(self):
+		self.surface = cairo.SVGSurface(self.outdir + self.filename, self.w, self.h)
+		self.ctx = cairo.Context(self.surface)
+		self.ctx.scale(1414, 1414)
+
 	# Write SVG
 	def save(self):
-		print("Saving", self.filename)
+		#print("Saving", self.filename)
 		self.surface.finish()
 		self.surface.flush()
 
@@ -66,30 +79,34 @@ class design():
 
 	# draw the non 14 segment texts
 	def draw_texts(self):
-		if 'self.texts' in locals():
+		if hasattr(self, 'texts'):
 			for t in self.texts:
 				self.ctx.set_font_size(t["size"])
 				self.ctx.select_font_face(t["font"], cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
 				xbearing, ybearing, width, height, dx, dy = self.ctx.text_extents(t["string"])
-				self.ctx.move_to((self.xnorm*t["x"])-width/2-xbearing, (self.ynorm*t["y"])-height/2-ybearing)
+				if self.h > self.w:
+					self.ctx.move_to((self.xnorm*t["x"])-width/2-xbearing, (self.ynorm*t["y"])-height/2-ybearing)
+				else:
+					self.ctx.move_to((self.ynorm*t["x"])-width/2-xbearing, (self.xnorm*t["y"])-height/2-ybearing)
 				self.ctx.set_source_rgb(*t["color"])
 				self.ctx.show_text(t["string"])
 				self.ctx.fill()
 
 	# generate the 14 seg segments
 	def draw_segments(self):
-		if 'self.segments' in locals():
+		if hasattr(self, 'segments'):
 			for t in self.segments:
 				self.draw_14_seg_chars(t["buf"], t["scaler"], t["x"], t["y"])
 
 	# generate the background grid
-	def draw_14_seg_disp_grid(self):	
-		for x in range(self.grid[0]):
-			for y in range(self.grid[1]):
-				if self.h > self.w:
-					self.draw_14_seg_disp(self.xnorm/(self.grid[0]+self.grid_padding[0])*x, self.ynorm/(self.grid[1]+self.grid_padding[1])*y, self.scale, " ")
-				else:
-					self.draw_14_seg_disp(self.ynorm/(self.grid[0]+self.grid_padding[0])*x, self.xnorm/(self.grid[1]+self.grid_padding[1])*y, self.scale, " ")
+	def draw_14_seg_disp_grid(self):
+		if hasattr(self, 'panel'):
+			for x in range(self.panel_x, self.panel_w):
+				for y in range(self.panel_y, self.panel_h):
+					if self.h > self.w:
+						self.draw_14_seg_disp(self.xnorm/(self.grid[0])*x, self.ynorm/(self.grid[1])*y, self.scale, " ")
+					else:
+						self.draw_14_seg_disp(self.ynorm/(self.grid[0])*x, self.xnorm/(self.grid[1])*y, self.scale, " ")
 
 	# char drawing aligner and helper
 	def draw_14_seg_chars(self, chars, scaler, offx = 0, offy = 0):
@@ -98,16 +115,17 @@ class design():
 				for i in range(len(chars)):
 					if x == chars[i][0] and y == chars[i][1]:
 						if self.h > self.w:
-							self.draw_14_seg_disp(self.xnorm/(self.grid[0]+self.grid_padding[0])*(x*scaler)+self.xnorm/self.grid[0]*offx, self.ynorm/(self.grid[1]+self.grid_padding[1])*y+self.xnorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
+							self.draw_14_seg_disp(self.xnorm/(self.grid[0])*(x*scaler)+self.xnorm/self.grid[0]*offx, self.ynorm/(self.grid[1])*y+self.xnorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
 						else:
-							self.draw_14_seg_disp(self.ynorm/(self.grid[0]+self.grid_padding[0])*(x*scaler)+self.ynorm/self.grid[0]*offx, self.xnorm/(self.grid[1]+self.grid_padding[1])*y+self.ynorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
+							self.draw_14_seg_disp(self.ynorm/(self.grid[0])*(x*scaler)+self.ynorm/self.grid[0]*offx, self.xnorm/(self.grid[1])*y+self.ynorm/self.grid[1]*offy, self.scale*scaler, chars[i][2])
 
 	# Render the 14 seg display
 	def draw_14_seg_disp(self, x, y, scale, character, rotate = False):
 		# normals
-		xn, yn = self.xnorm*scale, self.ynorm*scale #min(self.xnorm, 1)*scale, max(self.xnorm, 1)*scale # dinA* 
-		
+		xn, yn = self.xnorm*scale, self.ynorm*scale
+
 		# segment background rectangle
+		#self.ctx.rectangle(x, y, xn+0.001, yn+0.001)
 		self.ctx.rectangle(x, y, xn, yn)
 		self.ctx.set_source_rgb(*self.color_segment_bg)
 		self.ctx.fill()
@@ -139,7 +157,8 @@ class design():
 			self.ctx.show_text(character)
 			self.ctx.restore()
 
-		self.ctx.fill()	
+		self.ctx.fill()
+
 
 	# root generator, kind of L-System, but just kind of..
 	def gen_root(self):
@@ -153,10 +172,11 @@ class design():
 					")" : [1, [[-1, "YYYY///(((||| "]]],
 					"(" : [1, [[1, "YYYY\\\\\\)))||| "]]],
 					"'" : [1, []],
-					" " : [1, []]}
+					" " : [1, []],
+					"start": [0, [[0, "()()|||||//\\\\Y|"]]]}
 
 		for i in range(len(self.root_start)):
-			axiom = [self.root_start[i], 0, "|"]
+			axiom = [self.root_start[i], 0, random.choice(rules["|"][1][0][1])]
 			alive = True
 			random.seed(self.root_seed[i] if self.root_seed[i] != "" else random.randbytes(7))
 			self.root_buf.append(axiom)
@@ -188,13 +208,15 @@ class design():
 	# the <g> will be linked to #f1
 	# finally we will remove the main group from cairo
 	def do_the_hacky_whacky_svg_blur(self):
-		print("Modifying SVG", "out/" + self.filename," >:3")
+		#print("Modifying SVG", self.outdir + self.filename," >:3")
 		
-		svg = open("out/" + self.filename, 'r')
+		svg = open(self.outdir + self.filename, 'r')
 		text = [x for x in svg.read().splitlines() if x]
 
 		filt = "<filter id=\"f1\" x=\"0\" y=\"0\">\n<feGaussianBlur in=\"SourceGraphic\" stdDeviation=\"{0:g} {1:g}\" />\n</filter>".format(self.blur, self.blur)
-		new_group = ["<g style=\"fill:rgb({0:g}%,{1:g}%,{2:g}%);fill-opacity:1;filter:url(#f1)\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100)]
+		new_group = ["<g style=\"fill:rgb({0:.1f}%,{1:.1f}%,{2:.1f}%);fill-opacity:1;filter:url(#f1)\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100)]
+
+		found_blur = False
 
 		for k, l in enumerate(text):
 			if "<defs>" in l:
@@ -203,17 +225,22 @@ class design():
 			if "<g id=\"surface" in l:
 				text.pop(k)
 
-			if "<g style=\"fill:rgb({0:g}%,{1:g}%,{2:g}%);fill-opacity:1;\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100) in l:
+			if "<g style=\"fill:rgb({0:.1f}%,{1:.1f}%,{2:.1f}%);fill-opacity:1;\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", "") in l:
 				new_group.append(text[k  ])
 				new_group.append(text[k+1])
 				new_group.append(text[k+2])
+				found_blur = True
 
 			if "</svg>" in l:				
 				new_group.append("</g>")
 
 		text.pop(len(text)-2)
 
-		out = open("out/"+ self.filename, 'w')
+		if found_blur == False:
+			print("couldn't find blur in " + self.filename)
+			print("rgb({0:.1f}%,{1:.1f}%,{2:.1f}%)".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", ""))
+
+		out = open(self.outdir + self.filename, 'w')
 		
 		out.write("\n".join(text[:-1] + new_group + text[-1:]))
 
@@ -221,13 +248,12 @@ class design():
 		svg.close()
 
 	def render_svg_to_png(self):
-		print("Rendering " + self.filename + " to png")
+		#print("Rendering " + self.filename + " to png")
 
 		subprocess.run(["inkscape", '--export-type=png', \
 						f'--export-filename={"out/png/" + self.filename[:-4]}', \
 						f'--export-width={self.print_width}', f'--export-height={self.print_height}', \
-						"out/" + self.filename])
-
+						self.outdir + self.filename])
 
 if __name__ == "__main__":
 	args = sys.argv[1:]
