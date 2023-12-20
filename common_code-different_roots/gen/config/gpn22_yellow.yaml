@@ -1,31 +1,30 @@
 filename: gpn22_yellow.svg # output file name
 width: 1000 # used for aspect ratio
 height: 1414 # used for aspect ratio
-grid: !!python/tuple [20, 18] # background grid size, 20x20 = full dinA* with scale 0.05
-grid_padding: !!python/tuple [0, 2]
-scale: 0.05 # scale of single segment
+grid: !!python/tuple [20, 20] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505 # scale of single segment
 
 blur:
   blur: true
   strength: 40 # apply some blur, let the segments shine :3 
 
 png:
-  print: true
+  print: false
   width: 5833 # 420 dpi
   height: 8248
 
-color:
+colors:
   background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
   segment_on:  !!python/tuple [0.984, 0.984, 0.157] # segment on color
   segment_off: !!python/tuple [0.251, 0.161, 0.016] # segment off color
   segment_bg:  !!python/tuple [0.125, 0.078, 0.047] # segment background (rectangle) color
 
-root:
+roots:
   seed: ["FUCK", "FRONTEX", "!"] # n seeds = n start points. Leave empty ("") for random seed
   start: [3, 6, 14] # starting point position, number of elements must match seed
   depth: 7 # max root depth before it dies
 
-text: # list of texts to be printed
+texts: # list of texts to be printed
   - 1:
     size: 0.035
     font: "Oxanium"
@@ -43,7 +42,13 @@ text: # list of texts to be printed
     color:  !!python/tuple [1, 1, 1]
     string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
 
-segment: # list of strings/chars to be placed
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 20
+  h: 18
+
+segments: # list of 14 segment chars to be placed with grid coordinates
   - 1:
     scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
     x: 0

@@ -1,9 +1,8 @@
-filename: gpn22_blue.svg
-width: 1000
-height: 1414
-grid: !!python/tuple [20, 18]
-grid_padding: !!python/tuple [0, 2]
-scale: 0.05
+filename: gpn22_blue.svg # output file name
+width: 1000 # used for aspect ratio
+height: 1414 # used for aspect ratio
+grid: !!python/tuple [20, 20] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505 # scale of single segment
 
 blur:
   blur: true
@@ -14,18 +13,18 @@ png:
   width: 5833 # 420 dpi
   height: 8248
 
-color:
-  background:  !!python/tuple [0.165, 0.165, 0.165]
-  segment_on:  !!python/tuple [0.651, 0.914, 0.961]
-  segment_off: !!python/tuple [0.192, 0.271, 0.268]
-  segment_bg:  !!python/tuple [0.063, 0.090, 0.094]
+colors:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.651, 0.914, 0.961] # segment on color
+  segment_off: !!python/tuple [0.192, 0.271, 0.268] # segment off color
+  segment_bg:  !!python/tuple [0.063, 0.090, 0.094] # segment background (rectangle) color
 
-root:
-  seed: ["mau", "meow", "nya"]
-  start: [6, 11, 16]
-  depth: 7
+roots:
+  seed: ["mau", "meow", "nya"] # n seeds = n start points. Leave empty ("") for random seed
+  start: [6, 11, 16] # starting point position, number of elements must match seed
+  depth: 7 # max root depth before it dies
 
-text: # list of texts to be printed
+texts: # list of texts to be printed
   - 1:
     size: 0.035
     font: "Oxanium"
@@ -43,7 +42,13 @@ text: # list of texts to be printed
     color:  !!python/tuple [1, 1, 1]
     string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
 
-segment:
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 20
+  h: 18
+  
+segments: # list of 14 segment chars to be placed with grid coordinates
   - 1:
     scaler: 1
     x: 0

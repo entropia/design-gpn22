@@ -1,35 +1,42 @@
-filename: congress_infobeamer.svg # output file name
+filename: congress_infobeamer # output file name
 width: 1414 # used for aspect ratio
 height: 1000 # used for aspect ratio
 grid: !!python/tuple [28, 14] # background grid size, 20x20 = full dinA* with scale 0.05
-grid_padding: !!python/tuple [0, 0]
-scale: 0.05 # scale of single segment
+scale: 0.0505 # scale of single segment
 
 blur:
   blur: true
-  strength: 40 # apply some blur, let the segments shine :3 
+  strength: 40.5 # apply some blur, let the segments shine :3 
 
 png:
   print: false
   width: 1920 # 420 dpi
   height: 1358
 
-color:
+colors:
   background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
   segment_on:  !!python/tuple [0.0, 0.996, 0.71] # segment on color
   segment_off: !!python/tuple [0.16, 0.3, 0.29] # segment off color
   segment_bg:  !!python/tuple [0.1, 0.2, 0.19] # segment background (rectangle) color
 
-root:
-  start: [] # starting point position, number of elements must match seed. Leave emtpy for no roots
-  seed: ["chaos ", "communication", "congress"] # n start points = n seeds. Leave empty ("") for random seed
+roots:
+  start: [3] # starting point position, number of elements must match seed. Leave emtpy for no roots
+  seed: [""] # n start points = n seeds. Leave empty ("") for random seed
   depth: 14 # max root depth before it dies
+  blur: 40 # glow strength, 0 to turn off
 
-segment: # list of strings/chars to be placed
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 28
+  h: 14
+
+segments: # list of strings/chars to be placed
   - 1:
     scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
     x: 0
     y: 0
+    blur: 40 # glow strength, 0 to turn off
     buf:
       - [ 4, 7,  "C"]
       - [ 5, 7,  "O"]
@@ -62,6 +69,7 @@ segment: # list of strings/chars to be placed
               # use x,y to move them by fractions of scalar
     x: 2
     y: 0
+    blur: 40 # glow strength, 0 to turn off
     buf:
       - [0, 2, "G"]
       - [1, 2, "P"]
@@ -73,6 +81,7 @@ segment: # list of strings/chars to be placed
     scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
     x: 0
     y: 0
+    blur: 40 # glow strength, 0 to turn off
     buf:
       - [ 5, 10, "3"]
       - [ 6, 10, "0"]
