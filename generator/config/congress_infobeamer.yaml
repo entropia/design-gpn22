@@ -1,0 +1,111 @@
+filename: congress_infobeamer # output file name
+width: 1414 # used for aspect ratio
+height: 1000 # used for aspect ratio
+grid: !!python/tuple [28, 14] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505 # scale of single segment
+
+blur:
+  blur: true
+  strength: 40.5 # apply some blur, let the segments shine :3 
+
+png:
+  print: false
+  width: 1920 # 420 dpi
+  height: 1358
+
+colors:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.0, 0.996, 0.71] # segment on color
+  segment_off: !!python/tuple [0.16, 0.3, 0.29] # segment off color
+  segment_bg:  !!python/tuple [0.1, 0.2, 0.19] # segment background (rectangle) color
+
+roots:
+  start: [3] # starting point position, number of elements must match seed. Leave emtpy for no roots
+  seed: [""] # n start points = n seeds. Leave empty ("") for random seed
+  depth: 14 # max root depth before it dies
+  blur: 40 # glow strength, 0 to turn off
+
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 28
+  h: 14
+
+segments: # list of strings/chars to be placed
+  - 1:
+    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+    x: 0
+    y: 0
+    blur: 40 # glow strength, 0 to turn off
+    buf:
+      - [ 4, 7,  "C"]
+      - [ 5, 7,  "O"]
+      - [ 6, 7,  "M"]
+      - [ 7, 7,  "M"]
+      - [ 8, 7,  "O"]
+      - [ 9, 7,  "N"]
+      - [11, 7,  "C"]
+      - [12, 7,  "O"]
+      - [13, 7,  "D"]
+      - [14, 7,  "E"]
+      - [15, 7,  "("]
+      - [16, 7,  ")"]
+      - [ 9, 8, "D"]
+      - [10, 8, "I"]
+      - [11, 8, "F"]
+      - [12, 8, "F"]
+      - [13, 8, "E"]
+      - [14, 8, "R"]
+      - [15, 8, "E"]
+      - [16, 8, "N"]
+      - [17, 8, "T"]
+      - [19, 8, "R"]
+      - [20, 8, "O"]
+      - [21, 8, "O"]
+      - [22, 8, "T"]
+      - [23, 8, "S"]
+  - 2:
+    scaler: 4 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+              # use x,y to move them by fractions of scalar
+    x: 2
+    y: 0
+    blur: 40 # glow strength, 0 to turn off
+    buf:
+      - [0, 2, "G"]
+      - [1, 2, "P"]
+      - [2, 2, "N"]
+      - [3, 2, "-"]
+      - [4, 2, "2"]
+      - [5, 2, "2"]
+  - 3:
+    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+    x: 0
+    y: 0
+    blur: 40 # glow strength, 0 to turn off
+    buf:
+      - [ 5, 10, "3"]
+      - [ 6, 10, "0"]
+      - [ 7, 10, "."]
+      - [ 8, 10, "0"]
+      - [ 9, 10, "5"]
+      - [10, 10, " "]
+      - [11, 10, "-"]
+      - [12, 10, " "]
+      - [13, 10, "0"]
+      - [14, 10, "2"]
+      - [15, 10, "."]
+      - [16, 10, "0"]
+      - [17, 10, "6"]
+      - [18, 10, "."]
+      - [19, 10, "2"]
+      - [20, 10, "0"]
+      - [21, 10, "2"]
+      - [22, 10, "4"]
+      - [10, 11, "g"]
+      - [11, 11, "u"]
+      - [12, 11, "l"]
+      - [13, 11, "a"]
+      - [14, 11, "s"]
+      - [15, 11, "."]
+      - [16, 11, "c"]
+      - [17, 11, "h"]

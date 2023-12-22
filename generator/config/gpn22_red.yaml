@@ -1,0 +1,95 @@
+filename: gpn22_red.svg # output file name
+width: 1000 # used for aspect ratio
+height: 1414 # used for aspect ratio
+grid: !!python/tuple [20, 20] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505
+
+blur:
+  blur: true
+  strength: 40 # apply some blur, let the segments shine :3 
+
+png:
+  print: true
+  #width: 7016 # 300 dpi dinA1
+  #height: 9933
+  width: 2480 # 300 dpi dinA4
+  height: 3508
+
+colors:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [1.000, 1.000, 0.282] # segment on color
+  segment_off: !!python/tuple [0.388, 0.059, 0.059] # segment off color
+  segment_bg:  !!python/tuple [0.200, 0.153, 0.149] # segment background (rectangle) color
+
+roots:
+  seed: ["G~", "p~", "N~"] # n seeds = n start points. Leave empty ("") for random seed
+  start: [15, 9, 3] # starting point position, number of elements must match seed
+  depth: 7 # max root depth before it dies
+
+texts: # list of texts to be printed
+  - 1:
+    size: 0.045
+    font: "Oxanium"
+    x: 0.5
+    y: 0.935
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "30.05 - 02.06.2024  |  gulas.ch"
+  - 2:
+    size: 0.02
+    font: "Oxanium"
+    x: 0.5
+    y: 0.98
+    alignment: "Center"
+    color:  !!python/tuple [1, 1, 1]
+    string: "Entropia e.V. - CCC Karlsruhe  |  ZKM/HFG Karlsruhe"
+
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 20
+  h: 18
+
+segments: # list of 14 segment chars to be placed with grid coordinates
+  - 1:
+    scaler: 1
+    x: 0
+    y: 0
+    buf:
+      - [ 2,14,"C"]
+      - [ 3,14,"O"]
+      - [ 4,14,"M"]
+      - [ 5,14,"M"]
+      - [ 6,14,"O"]
+      - [ 7,14,"N"]
+      - [ 9,14,"C"]
+      - [10,14,"O"]
+      - [11,14,"D"]
+      - [12,14,"E"]
+      - [13,14,"("]
+      - [14,14,")"]
+      - [ 3,15,"D"]
+      - [ 4,15,"I"]
+      - [ 5,15,"F"]
+      - [ 6,15,"F"]
+      - [ 7,15,"E"]
+      - [ 8,15,"R"]
+      - [ 9,15,"E"]
+      - [10,15,"N"]
+      - [11,15,"T"]
+      - [13,15,"R"]
+      - [14,15,"O"]
+      - [15,15,"O"]
+      - [16,15,"T"]
+      - [17,15,"S"]
+  - 2:
+    scaler: 3
+    x: 1
+    y: 0
+    buf:
+      - [ 0,10,"G"]
+      - [ 1,10,"P"]
+      - [ 2,10,"N"]
+      - [ 3,10,"-"]
+      - [ 4,10,"2"]
+      - [ 5,10,"2"]
