@@ -9,9 +9,11 @@ blur:
   strength: 40 # apply some blur, let the segments shine :3 
 
 png:
-  print: false
-  width: 5833 # 420 dpi
-  height: 8248
+  print: true
+  #width: 7016 # 300 dpi dinA1
+  #height: 9933
+  width: 2480 # 300 dpi dinA4
+  height: 3508
 
 colors:
   background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
@@ -20,27 +22,27 @@ colors:
   segment_bg:  !!python/tuple [0.125, 0.078, 0.047] # segment background (rectangle) color
 
 roots:
-  seed: ["FUCK", "FRONTEX", "!"] # n seeds = n start points. Leave empty ("") for random seed
-  start: [3, 6, 14] # starting point position, number of elements must match seed
+  seed: ["FUCK", "FRONTEX ", "!"] # n seeds = n start points. Leave empty ("") for random seed
+  start: [2, 13, 15] # starting point position, number of elements must match seed
   depth: 7 # max root depth before it dies
 
 texts: # list of texts to be printed
   - 1:
-    size: 0.035
+    size: 0.045
     font: "Oxanium"
     x: 0.5
     y: 0.935
     alignment: "Center"
     color:  !!python/tuple [1, 1, 1]
-    string: "30.05 - 02.06.2024  |  ZKM/HFG Karlsruhe"
+    string: "30.05 - 02.06.2024  |  gulas.ch"
   - 2:
-    size: 0.035
+    size: 0.02
     font: "Oxanium"
     x: 0.5
-    y: 0.975
+    y: 0.98
     alignment: "Center"
     color:  !!python/tuple [1, 1, 1]
-    string: "Entropia e.V. / CCC Karlsruhe  |  gulas.ch"
+    string: "Entropia e.V. - CCC Karlsruhe  |  ZKM/HFG Karlsruhe"
 
 panel: # grid of turned off segments
   x: 0
