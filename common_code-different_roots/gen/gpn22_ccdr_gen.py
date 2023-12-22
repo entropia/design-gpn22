@@ -37,7 +37,7 @@ class design():
 					self.root_start = conf["roots"]["start"]
 					self.root_buf = []
 					self.root_depth = conf["roots"]["depth"]
-					self.root_blur = conf["roots"]["blur"]
+					#self.root_blur = conf["roots"]["blur"]
 
 				if conf.get("segments"):
 					self.segments = conf["segments"]
@@ -173,9 +173,10 @@ class design():
 					"(" : [1, [[1, "YYYY\\\\\\)))||| "]]],
 					"'" : [1, []],
 					" " : [1, []],
-					"start": [0, [[0, "()()|||||//\\\\Y|"]]]}
+					"start": [0, [[0, "()()|||||/\\Y|"]]]}
 
 		for i in range(len(self.root_start)):
+			random.seed(self.filename + str(i))
 			axiom = [self.root_start[i], 0, random.choice(rules["|"][1][0][1])]
 			alive = True
 			random.seed(self.root_seed[i] if self.root_seed[i] != "" else random.randbytes(7))
@@ -260,6 +261,7 @@ if __name__ == "__main__":
 	if args:
 		for a in args:
 			gpn22 = design(a)
+			gpn22.create_surface()
 			gpn22.draw_bg()
 			gpn22.draw_14_seg_disp_grid()
 			gpn22.draw_14_seg_chars(gpn22.gen_root(), 1)
