@@ -226,7 +226,7 @@ class design():
 			if "<g id=\"surface" in l:
 				text.pop(k)
 
-			if "<g style=\"fill:rgb({0:.1f}%,{1:.1f}%,{2:.1f}%);fill-opacity:1;\">".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", "") in l:
+			if "rgb({0:.1f}%, {1:.1f}%, {2:.1f}%)".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", "") in l:
 				new_group.append(text[k  ])
 				new_group.append(text[k+1])
 				new_group.append(text[k+2])
@@ -239,7 +239,7 @@ class design():
 
 		if found_blur == False:
 			print("couldn't find blur in " + self.filename)
-			print("rgb({0:.1f}%,{1:.1f}%,{2:.1f}%)".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", ""))
+			print("rgb({0:.1f}%, {1:.1f}%, {2:.1f}%)".format(self.color_segment_on[0]*100,self.color_segment_on[1]*100,self.color_segment_on[2]*100).replace(".0", ""))
 
 		out = open(self.outdir + self.filename, 'w')
 		
