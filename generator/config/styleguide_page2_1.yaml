@@ -1,0 +1,79 @@
+filename: styleguide_p2_1.svg # output file name
+width: 1414 # used for aspect ratio
+height: 1000 # used for aspect ratio
+grid: !!python/tuple [28, 14] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505 # scale of single segment
+
+blur:
+  blur: true
+  strength: 40.5 # apply some blur, let the segments shine :3 
+
+png:
+  print: false
+  width: 1920 # 420 dpi
+  height: 1358
+
+colors:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.0, 0.996, 0.71] # segment on color
+  segment_off: !!python/tuple [0.16, 0.3, 0.29] # segment off color
+  segment_bg:  !!python/tuple [0.1, 0.2, 0.19] # segment background (rectangle) color
+
+roots:
+  start: [] # starting point position, number of elements must match seed. Leave emtpy for no roots
+  seed: [] # n start points = n seeds. Leave empty ("") for random seed
+  depth: 14 # max root depth before it dies
+  blur: 40 # glow strength, 0 to turn off
+
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 28
+  h: 14
+
+segments: # list of strings/chars to be placed
+  - 1:
+    scaler: 1 # a scaler of 1 means a single char will be placed on the defined grid with scale
+    x: 0
+    y: 0
+    blur: 40 # glow strength, 0 to turn off
+    buf:
+      - [ 4, 9,  "C"]
+      - [ 5, 9,  "O"]
+      - [ 6, 9,  "M"]
+      - [ 7, 9,  "M"]
+      - [ 8, 9,  "O"]
+      - [ 9, 9,  "N"]
+      - [11, 9,  "C"]
+      - [12, 9,  "O"]
+      - [13, 9,  "D"]
+      - [14, 9,  "E"]
+      - [15, 9,  "("]
+      - [16, 9,  ")"]
+      - [ 9, 10, "D"]
+      - [10, 10, "I"]
+      - [11, 10, "F"]
+      - [12, 10, "F"]
+      - [13, 10, "E"]
+      - [14, 10, "R"]
+      - [15, 10, "E"]
+      - [16, 10, "N"]
+      - [17, 10, "T"]
+      - [19, 10, "R"]
+      - [20, 10, "O"]
+      - [21, 10, "O"]
+      - [22, 10, "T"]
+      - [23, 10, "S"]
+  - 2:
+    scaler: 4 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+              # use x,y to move them by fractions of scalar
+    x: 2
+    y: 0
+    blur: 40 # glow strength, 0 to turn off
+    buf:
+      - [0, 3, "G"]
+      - [1, 3, "P"]
+      - [2, 3, "N"]
+      - [3, 3, "-"]
+      - [4, 3, "2"]
+      - [5, 3, "2"]

@@ -9,7 +9,7 @@ blur:
   strength: 40 # apply some blur, let the segments shine :3 
 
 png:
-  print: true
+  print: false
   width: 7016 # 300 dpi dinA1
   height: 9933
   #width: 2480 # 300 dpi dinA4
@@ -94,3 +94,11 @@ segments: # list of 14 segment chars to be placed with grid coordinates
       - [ 3,10,"-"]
       - [ 4,10,"2"]
       - [ 5,10,"2"]
+  - 3:
+    scaler: 1
+    x: 0
+    y: 0
+    buf:
+      - [ 2,0,"~"]
+      - [ 3,0," "]
+      - [ 4,0,"-"]

@@ -1,0 +1,47 @@
+filename: mug # output file name
+width: 1414 # used for aspect ratio
+height: 1000 # used for aspect ratio
+grid: !!python/tuple [28, 14] # background grid size, 20x20 = full dinA* with scale 0.05
+scale: 0.0505 # scale of single segment
+
+blur:
+  blur: false
+  strength: 40.5 # apply some blur, let the segments shine :3 
+
+png:
+  print: true
+  width: 1920 # 420 dpi
+  height: 1358
+
+colors:
+  background:  !!python/tuple [0.165, 0.165, 0.165] # background color, placed behind all segments
+  segment_on:  !!python/tuple [0.0, 0.996, 0.71] # segment on color
+  segment_off: !!python/tuple [0.16, 0.3, 0.29] # segment off color
+  segment_bg:  !!python/tuple [0.1, 0.2, 0.19] # segment background (rectangle) color
+
+roots:
+  start: [22] # starting point position, number of elements must match seed. Leave emtpy for no roots
+  seed: ["nya"] # n start points = n seeds. Leave empty ("") for random seed
+  depth: 14 # max root depth before it dies
+  blur: 40 # glow strength, 0 to turn off
+
+panel: # grid of turned off segments
+  x: 0
+  y: 0
+  w: 0
+  h: 0
+
+segments: # list of strings/chars to be placed
+  - 1:
+    scaler: 2 # a scaler of 3 means that the chars are three times the size, they are still placed on the grid
+              # use x,y to move them by fractions of scalar
+    x: 16
+    y: 6
+    blur: 0 # glow strength, 0 to turn off
+    buf:
+      - [0, 2, "G"]
+      - [1, 2, "P"]
+      - [2, 2, "N"]
+      - [3, 2, "-"]
+      - [4, 2, "2"]
+      - [5, 2, "2"]
