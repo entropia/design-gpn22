@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="544.66899"
+     inkscape:cx="545.89296"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -52,49 +52,7 @@
        y="143.31318"
        width="366.11545"
        height="340.02445"
-       id="rect1002" /><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224"
-       x="-0.050290826"
-       y="-0.28655731"
-       width="1.1005817"
-       height="1.5731146"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-5"
-       x="-0.046428481"
-       y="-0.31521247"
-       width="1.092857"
-       height="1.6304249"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-3" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-5"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-3"
-       x="-0.055319742"
-       y="-0.31521209"
-       width="1.1106395"
-       height="1.6304242"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-6" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-0"
-         in="blur"
-         operator="over" /></filter></defs><g
+       id="rect1002" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -117,43 +75,43 @@
        inkscape:label="subtext-text"><tspan
          x="18.5"
          y="67.747003"
-         id="tspan321">
+         id="tspan1054">
 </tspan><tspan
          x="18.5"
          y="78.330339"
-         id="tspan323">
+         id="tspan1056">
 </tspan><tspan
          x="18.5"
          y="88.913675"
-         id="tspan325">
+         id="tspan1058">
 </tspan><tspan
          x="18.5"
          y="99.497011"
-         id="tspan327">
+         id="tspan1060">
 </tspan><tspan
          x="18.5"
          y="110.08035"
-         id="tspan329">
+         id="tspan1062">
 </tspan><tspan
          x="18.5"
          y="120.66368"
-         id="tspan331">Der Infodesk ist derzeit nicht besetzt.
+         id="tspan1064">Der Infodesk ist derzeit nicht besetzt.
 </tspan><tspan
          x="18.5"
          y="131.24702"
-         id="tspan333">Wir sind ab ______ Uhr wieder für dich da.
+         id="tspan1066">Wir sind ab ______ Uhr wieder für dich da.
 </tspan><tspan
          x="18.5"
          y="141.83036"
-         id="tspan335">
+         id="tspan1068">
 </tspan><tspan
          x="18.5"
          y="152.41371"
-         id="tspan337">Du kannst uns auch über Mastodon @gpn_info@chaos.social
+         id="tspan1070">Du kannst uns auch über Mastodon @gpn_info@chaos.social
 </tspan><tspan
          x="18.5"
          y="162.99705"
-         id="tspan339">oder Mail infodesk@gulas.ch erreichen.</tspan></text><rect
+         id="tspan1072">oder Mail infodesk@gulas.ch erreichen.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -170,11 +128,11 @@
        inkscape:label="title-text"><tspan
          x="63.875747"
          y="41.785752"
-         id="tspan341">Infodesk
+         id="tspan1074">Infodesk
 </tspan><tspan
          x="26.791758"
          y="94.702378"
-         id="tspan343">geschlossen</tspan></text><rect
+         id="tspan1076">geschlossen</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

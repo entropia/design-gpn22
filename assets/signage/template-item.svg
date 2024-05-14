@@ -40,7 +40,7 @@
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile657" /><rect
+       id="color-profile885" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -55,21 +55,7 @@
        y="143.31319"
        width="366.11545"
        height="340.02444"
-       id="rect1002" /><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter1582"
-       x="-0.079028151"
-       y="-0.45030345"
-       width="1.1580563"
-       height="1.9006069"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur1578" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite1580"
-         in="blur"
-         operator="over" /></filter></defs><g
+       id="rect1002" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -95,51 +81,51 @@
          inkscape:label="subtext-center-text"><tspan
            x="40"
            y="142.747"
-           id="tspan710">
+           id="tspan935">
 </tspan><tspan
            x="40"
            y="153.33035"
-           id="tspan712">
+           id="tspan937">
 </tspan><tspan
            x="40"
            y="163.91369"
-           id="tspan714">
+           id="tspan939">
 </tspan><tspan
            x="40"
            y="174.49703"
-           id="tspan716">
+           id="tspan941">
 </tspan><tspan
            x="40"
            y="185.08038"
-           id="tspan718">Gemeinsam:
+           id="tspan943">Gemeinsam:
 </tspan><tspan
            x="40"
            y="195.66372"
-           id="tspan720">- Flammkuchenboden
+           id="tspan945">- Flammkuchenboden
 </tspan><tspan
            x="40"
            y="206.24706"
-           id="tspan722">- granulierter Knoblauch
+           id="tspan947">- granulierter Knoblauch
 </tspan><tspan
            x="40"
            y="216.83041"
-           id="tspan724">- Muskatnuss, gerieben
+           id="tspan949">- Muskatnuss, gerieben
 </tspan><tspan
            x="40"
            y="227.41375"
-           id="tspan726">- schwarzer Pfeffer, gemahlen
+           id="tspan951">- schwarzer Pfeffer, gemahlen
 </tspan><tspan
            x="40"
            y="237.99709"
-           id="tspan728">- Salz
+           id="tspan953">- Salz
 </tspan><tspan
            x="40"
            y="248.58044"
-           id="tspan730">- Zwiebel, gewürfelt
+           id="tspan955">- Zwiebel, gewürfelt
 </tspan><tspan
            x="40"
            y="259.16378"
-           id="tspan732">- Kekse!</tspan></text><rect
+           id="tspan957">- Kekse!</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.230615;stroke-linejoin:round;stop-color:#000000"
          id="rect1531"
          width="130"
@@ -156,15 +142,15 @@
          inkscape:label="subtext-right-text"><tspan
            x="105"
            y="142.747"
-           id="tspan734">Variante vegetarisch:
+           id="tspan959">Variante vegetarisch:
 </tspan><tspan
            x="105"
            y="153.33035"
-           id="tspan736">- Creme Fraiche
+           id="tspan961">- Creme Fraiche
 </tspan><tspan
            x="105"
            y="163.91369"
-           id="tspan738">- Sour Cream</tspan></text><rect
+           id="tspan963">- Sour Cream</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
@@ -181,11 +167,11 @@
          inkscape:label="subtext-left-text"><tspan
            x="10"
            y="142.747"
-           id="tspan740">Variante vegan:
+           id="tspan965">Variante vegan:
 </tspan><tspan
            x="10"
            y="153.33035"
-           id="tspan742">- vegane Sour Cream</tspan></text><rect
+           id="tspan967">- vegane Sour Cream</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
@@ -207,11 +193,11 @@
          inkscape:label="number-grid-text"><tspan
            x="-23"
            y="98.520875"
-           id="tspan744">.~ .~ .~ .~
+           id="tspan969">.~ .~ .~ .~
 </tspan><tspan
            x="-23"
            y="120.74593"
-           id="tspan746">.~ .~ .~ .~</tspan></text><rect
+           id="tspan971">.~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0-6"
          width="63"
@@ -230,11 +216,11 @@
          transform="translate(1.3125e-6)"><tspan
            x="-23"
            y="98.520875"
-           id="tspan748">! 3 .0 0
+           id="tspan973">! 3 .0 0
 </tspan><tspan
            x="-23"
            y="120.74593"
-           id="tspan750">! 7 .0 0</tspan></text><rect
+           id="tspan975">! 7 .0 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0"
          width="63"
@@ -253,11 +239,11 @@
          transform="translate(1.3125e-6,1.0297052)"><tspan
            x="-160"
            y="97.134612"
-           id="tspan752">Halbe Portion
+           id="tspan977">Halbe Portion
 </tspan><tspan
            x="-160"
            y="119.91473"
-           id="tspan754">Ganze Portion</tspan></text><rect
+           id="tspan979">Ganze Portion</tspan></text><rect
          style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.143022;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-9"
          width="130"
@@ -275,11 +261,11 @@
        inkscape:label="title-text"><tspan
          x="12.88274"
          y="28.874095"
-         id="tspan756">Flammkuchen
+         id="tspan981">Flammkuchen
 </tspan><tspan
          x="34.246944"
          y="64.151847"
-         id="tspan758">traditionell</tspan></text><rect
+         id="tspan983">traditionell</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"

@@ -52,63 +52,7 @@
        y="143.31319"
        width="366.11545"
        height="340.02444"
-       id="rect1002" /><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224"
-       x="-0.050290827"
-       y="-0.28655732"
-       width="1.1005816"
-       height="1.5731146"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-5"
-       x="-0.066326392"
-       y="-0.45030345"
-       width="1.1326528"
-       height="1.9006069"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-3" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-5"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-3"
-       x="-0.079028151"
-       y="-0.45030269"
-       width="1.1580563"
-       height="1.9006054"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-6" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-0"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-5-9"
-       x="-0.25213605"
-       y="-0.035822362"
-       width="1.5042721"
-       height="1.0716447"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-3-4" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-5-7"
-         in="blur"
-         operator="over" /></filter></defs><g
+       id="rect1002" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -130,39 +74,39 @@
        inkscape:label="subtext-text"><tspan
          x="12.5"
          y="57.747003"
-         id="tspan622">Dummy-Text nach Titel1
+         id="tspan1008">Dummy-Text nach Titel1
 </tspan><tspan
          x="12.5"
          y="68.330339"
-         id="tspan624">mew
+         id="tspan1010">mew
 </tspan><tspan
          x="12.5"
          y="78.913675"
-         id="tspan626">meew
+         id="tspan1012">meew
 </tspan><tspan
          x="12.5"
          y="89.497011"
-         id="tspan628">meeew
+         id="tspan1014">meeew
 </tspan><tspan
          x="12.5"
          y="100.08035"
-         id="tspan630">meow!
+         id="tspan1016">meow!
 </tspan><tspan
          x="12.5"
          y="110.66368"
-         id="tspan632">Dummy-Text nach Titel2
+         id="tspan1018">Dummy-Text nach Titel2
 </tspan><tspan
          x="12.5"
          y="121.24702"
-         id="tspan634">nya
+         id="tspan1020">nya
 </tspan><tspan
          x="12.5"
          y="131.83035"
-         id="tspan636">nyaaa
+         id="tspan1022">nyaaa
 </tspan><tspan
          x="12.5"
          y="142.41369"
-         id="tspan638">nyaaaaann</tspan></text><rect
+         id="tspan1024">nyaaaaann</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="185"
@@ -179,11 +123,11 @@
        inkscape:label="title-text"><tspan
          x="49.204715"
          y="41.785752"
-         id="tspan640">Titel1
+         id="tspan1026">Titel1
 </tspan><tspan
          x="49.204715"
          y="94.702378"
-         id="tspan642">Titel2</tspan></text><rect
+         id="tspan1028">Titel2</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
