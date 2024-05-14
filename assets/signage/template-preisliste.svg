@@ -40,7 +40,7 @@
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile718" /><rect
+       id="color-profile1743" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -55,63 +55,7 @@
        y="143.31319"
        width="366.11545"
        height="340.02444"
-       id="rect1002" /><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224"
-       x="-0.050290827"
-       y="-0.28655732"
-       width="1.1005816"
-       height="1.5731146"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-5"
-       x="-0.066326392"
-       y="-0.45030345"
-       width="1.1326528"
-       height="1.9006069"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-3" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-5"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-3"
-       x="-0.079028151"
-       y="-0.45030269"
-       width="1.1580563"
-       height="1.9006054"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-6" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-0"
-         in="blur"
-         operator="over" /></filter><filter
-       style="color-interpolation-filters:sRGB"
-       inkscape:label="Blur-Dup"
-       id="filter75224-5-9"
-       x="-0.25213605"
-       y="-0.035822362"
-       width="1.5042721"
-       height="1.0716447"><feGaussianBlur
-         stdDeviation="2.7799999999999998"
-         result="blur"
-         id="feGaussianBlur75222-3-4" /><feComposite
-         in2="SourceGraphic"
-         id="feComposite75226-5-7"
-         in="blur"
-         operator="over" /></filter></defs><g
+       id="rect1002" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -128,16 +72,9 @@
        inkscape:groupmode="layer"
        id="layer3"
        inkscape:label="Numbers"
-       transform="translate(170)"><rect
-         style="font-variation-settings:'wght' 400;fill:#1a3330;fill-opacity:1;stroke-width:0.166399;stroke-linejoin:round;stop-color:#000000"
-         id="rect1531-3"
-         width="40"
-         height="220"
-         x="-1.7763568e-15"
-         y="48"
-         inkscape:label="number-box" /><text
+       transform="translate(170)"><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02839px;line-height:150%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-3-1);display:inline;fill:#294c4a;fill-opacity:1;stroke:none;stroke-width:0.02;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02839px;line-height:150%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-3-1);display:inline;fill:#dedede;fill-opacity:1;stroke:none;stroke-width:0.02;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          x="110.73295"
          y="-106.2065"
          id="text38191-2-9-0"
@@ -145,83 +82,83 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan808">.~ .~ .~ .~ .~
+           id="tspan1820">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan810">.~ .~ .~ .~ .~
+           id="tspan1822">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan812">.~ .~ .~ .~ .~
+           id="tspan1824">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan814">.~ .~ .~ .~ .~
+           id="tspan1826">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan816">.~ .~ .~ .~ .~
+           id="tspan1828">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="111.49842"
-           id="tspan818">.~ .~ .~ .~ .~
+           id="tspan1830">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="122.04101"
-           id="tspan820">.~ .~ .~ .~ .~
+           id="tspan1832">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="132.5836"
-           id="tspan822">.~ .~ .~ .~ .~
+           id="tspan1834">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="143.12619"
-           id="tspan824">.~ .~ .~ .~ .~
+           id="tspan1836">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="153.66877"
-           id="tspan826">.~ .~ .~ .~ .~
+           id="tspan1838">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="164.21136"
-           id="tspan828">.~ .~ .~ .~ .~
+           id="tspan1840">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="174.75395"
-           id="tspan830">.~ .~ .~ .~ .~
+           id="tspan1842">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="185.29654"
-           id="tspan832">.~ .~ .~ .~ .~
+           id="tspan1844">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="195.83912"
-           id="tspan834">.~ .~ .~ .~ .~
+           id="tspan1846">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="206.38171"
-           id="tspan836">.~ .~ .~ .~ .~
+           id="tspan1848">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="216.9243"
-           id="tspan838">.~ .~ .~ .~ .~
+           id="tspan1850">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="227.46688"
-           id="tspan840">.~ .~ .~ .~ .~
+           id="tspan1852">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="238.00947"
-           id="tspan842">.~ .~ .~ .~ .~
+           id="tspan1854">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="248.55206"
-           id="tspan844">.~ .~ .~ .~ .~
+           id="tspan1856">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="259.09465"
-           id="tspan846">.~ .~ .~ .~ .~</tspan></text><rect
+           id="tspan1858">.~ .~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.15208;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-1"
          width="35"
@@ -231,7 +168,7 @@
          inkscape:label="number-grid-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02839px;line-height:150%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-3-6);display:inline;fill:#70ff83;fill-opacity:1;stroke:none;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter75224-5-9)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.02839px;line-height:150%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-3-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.05;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
          x="2.6690865"
          y="21.143276"
          id="text38191-1-8"
@@ -239,79 +176,79 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan848">
+           id="tspan1860">
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan850">! 3 .5 0
+           id="tspan1862">! 3 .5 0
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan852">! 2 .5 0
+           id="tspan1864">! 2 .5 0
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan854">! 2 .5 0
+           id="tspan1866">! 2 .5 0
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan856">
+           id="tspan1868">
 </tspan><tspan
            x="2"
            y="111.49842"
-           id="tspan858">! 1 .5 0
+           id="tspan1870">! 1 .5 0
 </tspan><tspan
            x="2"
            y="122.04101"
-           id="tspan860">! 1 .5 0
+           id="tspan1872">! 1 .5 0
 </tspan><tspan
            x="2"
            y="132.5836"
-           id="tspan862">! 2 .0 0
+           id="tspan1874">! 2 .0 0
 </tspan><tspan
            x="2"
            y="143.12619"
-           id="tspan864">! 2 .0 0
+           id="tspan1876">! 2 .0 0
 </tspan><tspan
            x="2"
            y="153.66877"
-           id="tspan866">
+           id="tspan1878">
 </tspan><tspan
            x="2"
            y="164.21136"
-           id="tspan868">! 2 .0 0
+           id="tspan1880">! 2 .0 0
 </tspan><tspan
            x="2"
            y="174.75395"
-           id="tspan870">! 2 .5 0
+           id="tspan1882">! 2 .5 0
 </tspan><tspan
            x="2"
            y="185.29654"
-           id="tspan872">! 3 .0 0
+           id="tspan1884">! 3 .0 0
 </tspan><tspan
            x="2"
            y="195.83912"
-           id="tspan874">! 3 .0 0
+           id="tspan1886">! 3 .0 0
 </tspan><tspan
            x="2"
            y="206.38171"
-           id="tspan876">! 3 .0 0
+           id="tspan1888">! 3 .0 0
 </tspan><tspan
            x="2"
            y="216.9243"
-           id="tspan878">
+           id="tspan1890">
 </tspan><tspan
            x="2"
            y="227.46688"
-           id="tspan880">! 2 .0 0
+           id="tspan1892">! 2 .0 0
 </tspan><tspan
            x="2"
            y="238.00947"
-           id="tspan882">! 2 .0 0
+           id="tspan1894">! 2 .0 0
 </tspan><tspan
            x="2"
            y="248.55206"
-           id="tspan884">! 2 .0 0</tspan></text><rect
+           id="tspan1896">! 2 .0 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.147666;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-6"
          width="33"
@@ -328,79 +265,79 @@
        inkscape:label="subtext-text"><tspan
          x="167"
          y="57.747003"
-         id="tspan886">
+         id="tspan1898">
 </tspan><tspan
          x="82.079342"
          y="68.330339"
-         id="tspan888">Flora Power Mate 0,5l
+         id="tspan1900">Flora Power Mate 0,5l
 </tspan><tspan
          x="91.350308"
          y="78.913675"
-         id="tspan890">Club Mate Zero 0,5l
+         id="tspan1902">Club Mate Zero 0,5l
 </tspan><tspan
          x="111.41631"
          y="89.497011"
-         id="tspan892">Club Mate 0,5l
+         id="tspan1904">Club Mate 0,5l
 </tspan><tspan
          x="167"
          y="100.08035"
-         id="tspan894">
+         id="tspan1906">
 </tspan><tspan
          x="68.2109"
          y="110.66368"
-         id="tspan896">Wittmannsthaler Still 0,7l
+         id="tspan1908">Wittmannsthaler Still 0,7l
 </tspan><tspan
          x="56.154364"
          y="121.24702"
-         id="tspan898">Wittmannsthaler Classic 0,7l
+         id="tspan1910">Wittmannsthaler Classic 0,7l
 </tspan><tspan
          x="38.120396"
          y="131.83035"
-         id="tspan900">Bad Dürrheimer Apfelschorle 0,5l
+         id="tspan1912">Bad Dürrheimer Apfelschorle 0,5l
 </tspan><tspan
          x="58.389564"
          y="142.41369"
-         id="tspan902">Rothaus Tannenzäpfle 0,33l
+         id="tspan1914">Rothaus Tannenzäpfle 0,33l
 </tspan><tspan
          x="167"
          y="152.99703"
-         id="tspan904">
+         id="tspan1916">
 </tspan><tspan
          x="70.293736"
          y="163.58038"
-         id="tspan906">Höpfner alkoholfrei 0,33l
+         id="tspan1918">Höpfner alkoholfrei 0,33l
 </tspan><tspan
          x="96.337198"
          y="174.16372"
-         id="tspan908">Premium Cola 0,5l
+         id="tspan1920">Premium Cola 0,5l
 </tspan><tspan
          x="45.841972"
          y="184.74706"
-         id="tspan910">Zotrine (Zickzack Kollektiv) 0,5l
+         id="tspan1922">Zotrine (Zickzack Kollektiv) 0,5l
 </tspan><tspan
          x="50.058383"
          y="195.33041"
-         id="tspan912">Kilimo (Zickzack Kollektiv) 0,5l
+         id="tspan1924">Kilimo (Zickzack Kollektiv) 0,5l
 </tspan><tspan
          x="32.540841"
          y="205.91375"
-         id="tspan914">Kolle Mate (Zickzack Kollektiv) 0,5l
+         id="tspan1926">Kolle Mate (Zickzack Kollektiv) 0,5l
 </tspan><tspan
          x="167"
          y="216.49709"
-         id="tspan916">
+         id="tspan1928">
 </tspan><tspan
          x="92.848957"
          y="227.08044"
-         id="tspan918">Premium Bier 0,33l
+         id="tspan1930">Premium Bier 0,33l
 </tspan><tspan
          x="72.799866"
          y="237.66378"
-         id="tspan920">Franz Natur Radler 0,33l
+         id="tspan1932">Franz Natur Radler 0,33l
 </tspan><tspan
          x="76.051058"
          y="248.24713"
-         id="tspan922">Franz Fränzle Hell 0,33l</tspan></text><rect
+         id="tspan1934">Franz Fränzle Hell 0,33l</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.322109;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="157.00015"
@@ -417,7 +354,7 @@
        inkscape:label="title-text"><tspan
          x="15.507427"
          y="41.785752"
-         id="tspan924">Getränke</tspan></text><rect
+         id="tspan1936">Getränke</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
