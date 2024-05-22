@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="quiet-hackcenter.svg"
+   sodipodi:docname="loc.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="549.56489"
+     inkscape:cx="547.11694"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -68,38 +68,11 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
-       x="143.69991"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.649776"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text"><tspan
-         x="148.5"
-         y="67.747003"
-         id="tspan344">
-</tspan><tspan
-         x="148.5"
-         y="78.330339"
-         id="tspan346">
-</tspan><tspan
-         x="148.5"
-         y="88.913675"
-         id="tspan348">
-</tspan><tspan
-         x="148.5"
-         y="99.497011"
-         id="tspan350">
-</tspan><tspan
-         x="148.5"
-         y="110.08035"
-         id="tspan352">
-</tspan><tspan
-         x="148.5"
-         y="120.66368"
-         id="tspan354">
-</tspan><tspan
-         x="44.262611"
-         y="131.24702"
-         id="tspan356">This is a quiet area. Please keep the noise level down!</tspan></text><rect
+       inkscape:label="subtext-text" /><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -114,12 +87,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="95.752694"
+         x="148.5"
          y="41.785752"
-         id="tspan359">Quiet </tspan><tspan
-         x="36.82477"
+         id="tspan345">
+</tspan><tspan
+         x="58.880376"
          y="94.702378"
-         id="tspan361">Hackcenter</tspan></text><rect
+         id="tspan347">LOGISTIK</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

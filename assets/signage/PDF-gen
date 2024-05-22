@@ -25,4 +25,7 @@ done
 
 pdftk pdf/*.pdf cat output pdf/ALL.pdf
 
+CLOUD_SYNC=../../../cloud/GPN/GPN22/Teams/Signage/
+test -e "$CLOUD_SYNC" && rsync -av . "$CLOUD_SYNC"
+
 #
