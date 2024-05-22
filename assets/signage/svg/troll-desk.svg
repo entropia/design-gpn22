@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="cert.svg"
+   sodipodi:docname="troll-desk.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81700998"
-     inkscape:cx="547.11694"
-     inkscape:cy="417.98755"
+     inkscape:zoom="1.0779321"
+     inkscape:cx="561.25984"
+     inkscape:cy="396.5927"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -68,34 +68,46 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
-       x="87.002846"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.649776"
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
-         x="148.5"
+         x="18.5"
          y="67.747003"
-         id="tspan2762">
+         id="tspan345">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="78.330339"
-         id="tspan2764">
+         id="tspan347">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="88.913675"
-         id="tspan2766">
+         id="tspan349">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="99.497011"
-         id="tspan2768">
+         id="tspan351">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="110.08035"
-         id="tspan2770">
+         id="tspan353">
 </tspan><tspan
-         x="108.46113"
+         x="18.5"
          y="120.66368"
-         id="tspan2772">First Aid / Erste Hilfe</tspan></text><rect
+         id="tspan355">Volunteer organisation unit. All helping people welcome.
+</tspan><tspan
+         x="18.5"
+         y="131.24702"
+         id="tspan357">GPN would not be possible without you.
+</tspan><tspan
+         x="18.5"
+         y="141.83036"
+         id="tspan359">
+</tspan><tspan
+         x="18.5"
+         y="152.41371"
+         id="tspan361">Contact: DECT: TROL (8765), Fedi: @trollhoehle@social.gulas.ch</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -110,13 +122,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="59.134398"
          y="41.785752"
-         id="tspan2774">
+         id="tspan363">Trolldesk
 </tspan><tspan
-         x="97.022682"
+         x="34.284754"
          y="94.702378"
-         id="tspan2776">CERT</tspan></text><rect
+         id="tspan365">trollen.jetzt</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

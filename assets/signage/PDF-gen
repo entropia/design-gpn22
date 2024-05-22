@@ -1,0 +1,28 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+mkdir -p pdf
+
+for i in svg/*.svg ; do
+	BASE="$(basename "${i%%.svg}")"
+	SVG="svg/$BASE.svg"
+	PDF="pdf/$BASE.pdf"
+	test "$SVG" -nt "$PDF" || continue
+	echo "generating:  $PDF"
+	inkscape -o "$PDF" "$SVG"
+	touch -r "$SVG" "$PDF"
+done
+
+rm -f pdf/ALL.pdf
+
+for i in pdf/*.pdf ; do
+	BASE="$(basename "${i%%.pdf}")"
+	SVG="svg/$BASE.svg"
+	PDF="pdf/$BASE.pdf"
+	test -f "$SVG" && continue
+	echo "pdf without svg: $PDF"
+done
+
+pdftk pdf/*.pdf cat output pdf/ALL.pdf
+
+#
