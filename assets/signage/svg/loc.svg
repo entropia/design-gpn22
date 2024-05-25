@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="547.11694"
+     inkscape:cx="548.34092"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -60,7 +60,7 @@
        inkscape:svg-dpi="300"
        width="297"
        height="99"
-       xlink:href="../template/common-footer.svg"
+       xlink:href="../template/common-footer-bw.svg"
        id="image412"
        x="0"
        y="111"
@@ -87,13 +87,9 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="47.027023"
          y="41.785752"
-         id="tspan345">
-</tspan><tspan
-         x="58.880376"
-         y="94.702378"
-         id="tspan347">LOGISTIK</tspan></text><rect
+         id="tspan771">LOGISTICS</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
@@ -101,4 +97,12 @@
        x="5"
        y="-8.8817842e-16"
        inkscape:label="titel-box"
-       sodipodi:insensitive="true" /></g></svg>
+       sodipodi:insensitive="true" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="300"
+       width="119.999"
+       height="79.480003"
+       xlink:href="../template/entropia-loc.svg"
+       id="image676"
+       x="88.500343"
+       y="65" /></g></svg>

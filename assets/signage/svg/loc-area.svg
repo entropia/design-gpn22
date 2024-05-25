@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="547.11694"
+     inkscape:cx="548.34092"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -60,7 +60,7 @@
        inkscape:svg-dpi="300"
        width="297"
        height="99"
-       xlink:href="../template/common-footer.svg"
+       xlink:href="../template/common-footer-bw.svg"
        id="image412"
        x="0"
        y="111"
@@ -75,27 +75,31 @@
        inkscape:label="subtext-text"><tspan
          x="148.5"
          y="67.747003"
-         id="tspan447">
+         id="tspan9980">
 </tspan><tspan
          x="148.5"
          y="78.330339"
-         id="tspan449">
+         id="tspan9982">
 </tspan><tspan
          x="148.5"
          y="88.913675"
-         id="tspan451">
+         id="tspan9984">
 </tspan><tspan
          x="148.5"
          y="99.497011"
-         id="tspan453">
+         id="tspan9986">
 </tspan><tspan
          x="148.5"
          y="110.08035"
-         id="tspan455">
+         id="tspan9988">
+</tspan><tspan
+         x="148.5"
+         y="120.66368"
+         id="tspan9990">
 </tspan><tspan
          x="98.021714"
-         y="120.66368"
-         id="tspan457">Do not put any cargo here</tspan></text><rect
+         y="131.24702"
+         id="tspan9992">Do not put any cargo here</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -110,13 +114,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="22.897134"
+         x="12.313809"
          y="41.785752"
-         id="tspan459">Logistic Area
+         id="tspan9994">Logistics Area
 </tspan><tspan
          x="38.052448"
          y="94.702378"
-         id="tspan461">Keep Clear!</tspan></text><rect
+         id="tspan9996">Keep Clear!</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

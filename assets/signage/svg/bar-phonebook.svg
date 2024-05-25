@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="bar.svg"
+   sodipodi:docname="bar-phonebook.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81700998"
-     inkscape:cx="548.34092"
-     inkscape:cy="417.98755"
+     inkscape:zoom="1.0779321"
+     inkscape:cx="563.11525"
+     inkscape:cy="397.5204"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -75,36 +75,10 @@
        inkscape:label="subtext-text"><tspan
          x="18.5"
          y="67.747003"
-         id="tspan423">
-</tspan><tspan
+         id="tspan364">DECT Phonenumbers. Please call BAR or 1BAR if out of bottles, </tspan><tspan
          x="18.5"
          y="78.330339"
-         id="tspan425">
-</tspan><tspan
-         x="18.5"
-         y="88.913675"
-         id="tspan427">
-</tspan><tspan
-         x="18.5"
-         y="99.497011"
-         id="tspan429">
-</tspan><tspan
-         x="18.5"
-         y="110.08035"
-         id="tspan431">
-</tspan><tspan
-         x="18.5"
-         y="120.66368"
-         id="tspan433">10:00 - 03:00   Snacks &amp; Coffee
-</tspan><tspan
-         x="18.5"
-         y="131.24702"
-         id="tspan435">10:00 - 03:00   Bottles
-</tspan><tspan
-         x="18.5"
-         y="141.83036"
-         id="tspan437">18:00 - 03:00   Tschunk
-</tspan></text><rect
+         id="tspan366">snacks, or trolls (next shift missing).</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -114,18 +88,112 @@
        inkscape:label="subtext-box"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="18.5"
+       y="67.747002"
+       id="text475"
+       inkscape:label="numname-text"><tspan
+         x="95"
+         y="67.747003"
+         id="tspan368">
+</tspan><tspan
+         x="95"
+         y="78.330339"
+         id="tspan370">
+</tspan><tspan
+         x="95"
+         y="88.913675"
+         id="tspan372">
+</tspan><tspan
+         x="95"
+         y="99.497011"
+         id="tspan374">Callgroup Bar
+</tspan><tspan
+         x="95"
+         y="110.08035"
+         id="tspan376">Callgroup Bar-Orga
+</tspan><tspan
+         x="95"
+         y="120.66368"
+         id="tspan378">
+</tspan><tspan
+         x="95"
+         y="131.24702"
+         id="tspan380">Emergency (MED/TEC/AW)
+</tspan><tspan
+         x="95"
+         y="141.83036"
+         id="tspan382">Infodesk
+</tspan><tspan
+         x="95"
+         y="152.41371"
+         id="tspan384">Trolldesk </tspan></text><rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.229928;stroke-linejoin:round;stop-color:#000000"
+       id="rect1531-6"
+       width="160"
+       height="105"
+       x="95"
+       y="60"
+       inkscape:label="numname-box"
+       sodipodi:insensitive="true" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="18.5"
+       y="67.747002"
+       id="text470"
+       inkscape:label="numbers-text"><tspan
+         x="18.5"
+         y="67.747003"
+         id="tspan386">
+</tspan><tspan
+         x="18.5"
+         y="78.330339"
+         id="tspan388">
+</tspan><tspan
+         x="18.5"
+         y="88.913675"
+         id="tspan390">
+</tspan><tspan
+         x="18.5"
+         y="99.497011"
+         id="tspan392">237
+</tspan><tspan
+         x="18.5"
+         y="110.08035"
+         id="tspan394">1237
+</tspan><tspan
+         x="18.5"
+         y="120.66368"
+         id="tspan396">
+</tspan><tspan
+         x="18.5"
+         y="131.24702"
+         id="tspan398">112
+</tspan><tspan
+         x="18.5"
+         y="141.83036"
+         id="tspan400">1111
+</tspan><tspan
+         x="18.5"
+         y="152.41371"
+         id="tspan402">8765 (TROL)</tspan></text><rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.157421;stroke-linejoin:round;stop-color:#000000"
+       id="rect1531-2"
+       width="75"
+       height="105"
+       x="18.5"
+       y="60"
+       inkscape:label="numbers-box"
+       sodipodi:insensitive="true" /><text
+       xml:space="preserve"
        id="text1012"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="65.653738"
          y="41.785752"
-         id="tspan439">
-</tspan><tspan
-         x="115.52239"
-         y="94.702378"
-         id="tspan441">Bar</tspan></text><rect
+         id="tspan404">Bar Help</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

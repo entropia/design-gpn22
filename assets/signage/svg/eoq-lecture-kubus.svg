@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="bar.svg"
+   sodipodi:docname="eoq-lecture-kubus.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="548.34092"
+     inkscape:cx="549.56489"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -72,39 +72,7 @@
        x="47.649776"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text"><tspan
-         x="18.5"
-         y="67.747003"
-         id="tspan423">
-</tspan><tspan
-         x="18.5"
-         y="78.330339"
-         id="tspan425">
-</tspan><tspan
-         x="18.5"
-         y="88.913675"
-         id="tspan427">
-</tspan><tspan
-         x="18.5"
-         y="99.497011"
-         id="tspan429">
-</tspan><tspan
-         x="18.5"
-         y="110.08035"
-         id="tspan431">
-</tspan><tspan
-         x="18.5"
-         y="120.66368"
-         id="tspan433">10:00 - 03:00   Snacks &amp; Coffee
-</tspan><tspan
-         x="18.5"
-         y="131.24702"
-         id="tspan435">10:00 - 03:00   Bottles
-</tspan><tspan
-         x="18.5"
-         y="141.83036"
-         id="tspan437">18:00 - 03:00   Tschunk
-</tspan></text><rect
+       inkscape:label="subtext-text" /><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -119,18 +87,18 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="11.297762"
          y="41.785752"
-         id="tspan439">
+         id="tspan842">End of Queue:
 </tspan><tspan
-         x="115.52239"
+         x="38.073563"
          y="94.702378"
-         id="tspan441">Bar</tspan></text><rect
-       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
+         id="tspan844">ZKM Kubus</tspan></text><rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.342504;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
-       height="109.99996"
+       height="160"
        x="5"
-       y="-8.8817842e-16"
+       y="-3.5527137e-15"
        inkscape:label="titel-box"
        sodipodi:insensitive="true" /></g></svg>

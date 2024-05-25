@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="547.11694"
+     inkscape:cx="548.34092"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -75,35 +75,39 @@
        inkscape:label="subtext-text"><tspan
          x="148.5"
          y="67.747003"
-         id="tspan689">
+         id="tspan351">
 </tspan><tspan
          x="148.5"
          y="78.330339"
-         id="tspan691">
+         id="tspan353">
 </tspan><tspan
          x="148.5"
          y="88.913675"
-         id="tspan693">
+         id="tspan355">
 </tspan><tspan
          x="148.5"
          y="99.497011"
-         id="tspan695">
+         id="tspan357">
 </tspan><tspan
          x="148.5"
          y="110.08035"
-         id="tspan697">
+         id="tspan359">
 </tspan><tspan
          x="148.5"
          y="120.66368"
-         id="tspan699">
+         id="tspan361">
 </tspan><tspan
          x="148.5"
          y="131.24702"
-         id="tspan701">
+         id="tspan363">
 </tspan><tspan
-         x="55.713782"
+         x="98.724449"
          y="141.83036"
-         id="tspan703">Bring empty bottles here. Notify Infodesk if full.</tspan></text><g
+         id="tspan365">Bring empty bottles here.
+</tspan><tspan
+         x="80.343337"
+         y="152.41371"
+         id="tspan367">Please notify Bar or Infodesk if full.</tspan></text><g
        id="g1010"
        transform="translate(4.9826143,-47.30874)"
        inkscape:label="icon"><path
@@ -132,7 +136,7 @@
        inkscape:label="title-text"><tspan
          x="36.232107"
          y="41.785752"
-         id="tspan705">Bottle Drop</tspan></text><rect
+         id="tspan369">Bottle Drop</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
