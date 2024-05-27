@@ -2,14 +2,14 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="content-opening.svg"
-   inkscape:export-filename="schild-b.png"
+   sodipodi:docname="kitchen-allergens-de.svg"
+   inkscape:export-filename="preisliste-bar.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
    xml:space="preserve"
@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81700998"
-     inkscape:cx="548.34092"
-     inkscape:cy="417.98755"
+     inkscape:zoom="0.83472924"
+     inkscape:cx="396.53577"
+     inkscape:cy="561.25984"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -38,33 +38,32 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" /><defs
      id="defs38013"><rect
-       x="68.846108"
-       y="74.011637"
+       x="68.846107"
+       y="74.011635"
        width="1015.8254"
-       height="462.1064"
+       height="462.10641"
        id="rect1014" /><rect
        x="302.72678"
        y="195.26408"
-       width="541.69375"
-       height="290.27915"
+       width="541.69373"
+       height="290.27914"
        id="rect1008" /><rect
-       x="290.08895"
-       y="143.31318"
+       x="290.08896"
+       y="143.31319"
        width="366.11545"
-       height="340.02445"
+       height="340.02444"
        id="rect1002" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
        preserveAspectRatio="none"
        inkscape:svg-dpi="300"
-       width="297"
-       height="99"
+       width="210.00005"
+       height="70.000015"
        xlink:href="../template/common-footer.svg"
-       id="image412"
+       id="image369"
        x="0"
-       y="111"
-       style="display:inline"
+       y="227"
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
@@ -73,46 +72,67 @@
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
-         x="18.5"
-         y="67.747003"
-         id="tspan347">
+         x="12.5"
+         y="57.747003"
+         id="tspan344">
 </tspan><tspan
-         x="18.5"
-         y="78.330339"
-         id="tspan349">
+         x="12.5"
+         y="68.330339"
+         id="tspan346">Kräuterquark: Laktose
 </tspan><tspan
-         x="18.5"
-         y="88.913675"
-         id="tspan351">
+         x="12.5"
+         y="78.913675"
+         id="tspan348">
 </tspan><tspan
-         x="18.5"
-         y="99.497011"
-         id="tspan353">
+         x="12.5"
+         y="89.497011"
+         id="tspan350">Aioli: Senf, Soja
 </tspan><tspan
-         x="18.5"
-         y="110.08035"
-         id="tspan355">
+         x="12.5"
+         y="100.08035"
+         id="tspan352">
 </tspan><tspan
-         x="18.5"
-         y="120.66368"
-         id="tspan357">In this Area, there will be a short live recording for the GPN22 </tspan><tspan
-         x="18.5"
-         y="131.24702"
-         id="tspan359">Opening between 15:00 and approx. 16:15.
+         x="12.5"
+         y="110.66368"
+         id="tspan354">Flammkuchen:
 </tspan><tspan
-         x="18.5"
-         y="141.83036"
-         id="tspan361">
+         x="12.5"
+         y="121.24702"
+         id="tspan356">		Gluten, Soja, Tomtate, Rucola,
 </tspan><tspan
-         x="18.5"
-         y="152.41371"
-         id="tspan363">Watch out for Trolls to avoid being accidentally in the picture.</tspan></text><rect
-       style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
+         x="12.5"
+         y="131.83035"
+         id="tspan358">		Balsamico, Sulfite
+</tspan><tspan
+         x="12.5"
+         y="142.41369"
+         id="tspan360">
+</tspan><tspan
+         x="12.5"
+         y="152.99703"
+         id="tspan362">Süßkartoffelcurry: Erdnüsse
+</tspan><tspan
+         x="12.5"
+         y="163.58038"
+         id="tspan364">
+</tspan><tspan
+         x="12.5"
+         y="174.16372"
+         id="tspan366">Soja-Gulasch: Soja
+</tspan><tspan
+         x="12.5"
+         y="184.74706"
+         id="tspan368">
+</tspan><tspan
+         x="12.5"
+         y="195.33041"
+         id="tspan370">Salat Dressing: Senf</tspan></text><rect
+       style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
-       width="260"
-       height="105.00007"
-       x="18.5"
-       y="60"
+       width="185"
+       height="210"
+       x="12.5"
+       y="50"
        inkscape:label="subtext-box"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
@@ -121,16 +141,12 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="50.371414"
+         x="11.612763"
          y="41.785752"
-         id="tspan366">Attention!
-</tspan><tspan
-         x="21.669457"
-         y="94.702378"
-         id="tspan368">Big Cameras!</tspan></text><rect
-       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
+         id="tspan372">Allergene</tspan></text><rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
-       width="287"
+       width="200"
        height="109.99996"
        x="5"
        y="-8.8817842e-16"

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="content-opening.svg"
+   sodipodi:docname="lounge-arrow.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81700998"
-     inkscape:cx="548.34092"
-     inkscape:cy="417.98755"
+     inkscape:zoom="1.0779321"
+     inkscape:cx="563.11525"
+     inkscape:cy="397.5204"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -52,7 +52,17 @@
        y="143.31318"
        width="366.11545"
        height="340.02445"
-       id="rect1002" /></defs><g
+       id="rect1002" /><inkscape:path-effect
+       effect="bspline"
+       id="path-effect48282"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -68,45 +78,35 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="47.649776"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
+       x="102.96252"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text"><tspan
-         x="18.5"
-         y="67.747003"
-         id="tspan347">
-</tspan><tspan
-         x="18.5"
-         y="78.330339"
-         id="tspan349">
-</tspan><tspan
-         x="18.5"
-         y="88.913675"
-         id="tspan351">
-</tspan><tspan
-         x="18.5"
-         y="99.497011"
-         id="tspan353">
-</tspan><tspan
-         x="18.5"
-         y="110.08035"
-         id="tspan355">
-</tspan><tspan
-         x="18.5"
-         y="120.66368"
-         id="tspan357">In this Area, there will be a short live recording for the GPN22 </tspan><tspan
-         x="18.5"
-         y="131.24702"
-         id="tspan359">Opening between 15:00 and approx. 16:15.
-</tspan><tspan
-         x="18.5"
-         y="141.83036"
-         id="tspan361">
-</tspan><tspan
-         x="18.5"
-         y="152.41371"
-         id="tspan363">Watch out for Trolls to avoid being accidentally in the picture.</tspan></text><rect
+       inkscape:label="subtext-text" /><g
+       id="g48574"
+       transform="matrix(-1,0,0,1,281.90106,-23.927278)"><path
+         sodipodi:type="star"
+         style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:11.3386;stroke-linejoin:round"
+         id="path48245"
+         inkscape:flatsided="true"
+         sodipodi:sides="3"
+         sodipodi:cx="415.74802"
+         sodipodi:cy="585.82678"
+         sodipodi:r1="56.692913"
+         sodipodi:r2="28.346457"
+         sodipodi:arg1="-1.5707963"
+         sodipodi:arg2="-0.52359878"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="m 415.74802,529.13387 49.0975,85.03937 -98.19501,0 z"
+         transform="matrix(0,-0.26458333,0.26458333,0,-45.000007,265)"
+         inkscape:transform-center-x="3.7500017"
+         inkscape:transform-center-y="2.6043947e-06" /><path
+         style="font-variation-settings:normal;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 110.84054,155.28002 c 20.3208,0 40.64106,0 60.96159,0"
+         id="path48280"
+         inkscape:path-effect="#path-effect48282"
+         inkscape:original-d="m 110.84054,155.28002 c 20.3208,2.6e-4 60.96159,0 60.96159,0" /></g><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -121,13 +121,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="50.371414"
+         x="148.5"
          y="41.785752"
-         id="tspan366">Attention!
+         id="tspan627">
 </tspan><tspan
-         x="21.669457"
+         x="75.559699"
          y="94.702378"
-         id="tspan368">Big Cameras!</tspan></text><rect
+         id="tspan629">Lounge</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
