@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="eoq-empty.svg"
+   sodipodi:docname="eoq-woc-classic.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="550.78887"
+     inkscape:cx="552.01284"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -89,7 +89,14 @@
        inkscape:label="title-text"><tspan
          x="11.297762"
          y="41.785752"
-         id="tspan335">End of Queue:</tspan></text><rect
+         id="tspan976">End of Queue:
+</tspan><tspan
+         x="81.698047"
+         y="94.702378"
+         id="tspan978">Classic </tspan><tspan
+         x="73.866449"
+         y="147.619"
+         id="tspan980">Waffles</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.342504;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
