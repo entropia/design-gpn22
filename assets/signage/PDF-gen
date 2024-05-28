@@ -5,7 +5,7 @@ mkdir -p pdf
 
 for i in svg/*.svg untracked/*.svg ; do
 	BASE="$(basename "${i%%.svg}")"
-	SVG="svg/$BASE.svg"
+	SVG="$i"
 	PDF="pdf/$BASE.pdf"
 	test "$SVG" -nt "$PDF" || continue
 	echo "generating:  $PDF"
