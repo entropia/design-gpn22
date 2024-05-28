@@ -3,7 +3,7 @@
 cd "$(dirname "$0")"
 mkdir -p pdf
 
-for i in svg/*.svg ; do
+for i in svg/*.svg untracked/*.svg ; do
 	BASE="$(basename "${i%%.svg}")"
 	SVG="svg/$BASE.svg"
 	PDF="pdf/$BASE.pdf"
