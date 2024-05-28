@@ -20,6 +20,8 @@ for i in pdf/*.pdf ; do
 	SVG="svg/$BASE.svg"
 	PDF="pdf/$BASE.pdf"
 	test -f "$SVG" && continue
+	SVG="untracked/$BASE.svg"
+	test -f "$SVG" && continue
 	echo "pdf without svg: $PDF"
 done
 
