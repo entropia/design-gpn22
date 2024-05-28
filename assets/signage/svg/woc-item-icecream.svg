@@ -28,19 +28,19 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.83472924"
-     inkscape:cx="396.53577"
-     inkscape:cy="561.25984"
+     inkscape:zoom="1.0426902"
+     inkscape:cx="325.12054"
+     inkscape:cy="667.98364"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
      inkscape:window-y="111"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer3" /><defs
+     inkscape:current-layer="layer5" /><defs
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile365" /><rect
+       id="color-profile648" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -88,56 +88,139 @@
          inkscape:label="subtext-center-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="65.31971"
          y="121.33862"
          id="text1536-5"
          inkscape:label="subtext-right-text"><tspan
            x="105"
-           y="142.747"
-           id="tspan414">enhält:
+           y="137.90512"
+           id="tspan681">Waffel enhält:
 </tspan><tspan
            x="105"
-           y="153.33035"
-           id="tspan416">- glutenhaltiges </tspan><tspan
-           x="105"
-           y="163.91369"
-           id="tspan418">Getreide
+           y="141.87387"
+           id="tspan683">- glutenhaltiges Getreide
 </tspan><tspan
            x="105"
-           y="174.49703"
-           id="tspan420">- Eier
+           y="145.84262"
+           id="tspan685">- Eier
 </tspan><tspan
            x="105"
-           y="185.08038"
-           id="tspan422">- Milch
+           y="149.81137"
+           id="tspan687">- Milch
 </tspan><tspan
            x="105"
-           y="195.66372"
-           id="tspan424">
+           y="153.78012"
+           id="tspan689">
 </tspan><tspan
            x="105"
-           y="206.24706"
-           id="tspan426">Kann Enthalten:
+           y="157.74887"
+           id="tspan691">Waffel kann Enthalten:
 </tspan><tspan
            x="105"
-           y="216.83041"
-           id="tspan428">- Sojabohnen
+           y="161.71762"
+           id="tspan693">- Sojabohnen
 </tspan><tspan
            x="105"
-           y="227.41375"
-           id="tspan430">- Schalenfrüchte </tspan><tspan
-           x="105"
-           y="237.99709"
-           id="tspan432">(Nüsse)
+           y="165.68637"
+           id="tspan695">- Schalenfrüchte (Nüsse)
 </tspan><tspan
            x="105"
-           y="248.58044"
-           id="tspan434">
+           y="169.65512"
+           id="tspan697">
 </tspan><tspan
            x="105"
-           y="259.16378"
-           id="tspan436">Kann Koffein enthalten.</tspan></text><rect
+           y="173.62387"
+           id="tspan699">Kann Koffein enthalten.
+</tspan><tspan
+           x="105"
+           y="177.59262"
+           id="tspan701">
+</tspan><tspan
+           x="105"
+           y="181.56137"
+           id="tspan703">veganes Eis enthält:
+</tspan><tspan
+           x="105"
+           y="185.53012"
+           id="tspan705">
+</tspan><tspan
+           x="105"
+           y="189.49887"
+           id="tspan707">veganes Eis kann enthalten:
+</tspan><tspan
+           x="105"
+           y="193.46762"
+           id="tspan709">  - Schalenfrüchte (Nüsse)
+</tspan><tspan
+           x="105"
+           y="197.43637"
+           id="tspan711">  - glutenhaltiges Getreide
+</tspan><tspan
+           x="105"
+           y="201.40512"
+           id="tspan713">  - Eier
+</tspan><tspan
+           x="105"
+           y="205.37387"
+           id="tspan715">  - Milch
+</tspan><tspan
+           x="105"
+           y="209.34262"
+           id="tspan717">
+</tspan><tspan
+           x="105"
+           y="213.31137"
+           id="tspan719">Milch-Eis (Erdbeere) enthält:
+</tspan><tspan
+           x="105"
+           y="217.28012"
+           id="tspan721">  - Eier
+</tspan><tspan
+           x="105"
+           y="221.24887"
+           id="tspan723">  - Milch
+</tspan><tspan
+           x="105"
+           y="225.21762"
+           id="tspan725">
+</tspan><tspan
+           x="105"
+           y="229.18637"
+           id="tspan727">Milch-Eis (Erdbeere) kann enthalten:
+</tspan><tspan
+           x="105"
+           y="233.15512"
+           id="tspan729">  - Schalenfrüchte (Nüsse)
+</tspan><tspan
+           x="105"
+           y="237.12387"
+           id="tspan731">
+</tspan><tspan
+           x="105"
+           y="241.09262"
+           id="tspan733">Milch-Eis (Schoko) enthält:
+</tspan><tspan
+           x="105"
+           y="245.06137"
+           id="tspan735">  - Sojabohnen
+</tspan><tspan
+           x="105"
+           y="249.03012"
+           id="tspan737">  - Milch
+</tspan><tspan
+           x="105"
+           y="252.99887"
+           id="tspan739">
+</tspan><tspan
+           x="105"
+           y="256.96762"
+           id="tspan741">Milch-Eis (Schoko) kann enthalten:
+</tspan><tspan
+           x="105"
+           y="260.93637"
+           id="tspan743">  - Schalenfrüchte (Nüsse)
+</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
@@ -147,57 +230,143 @@
          inkscape:label="subtext-right-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-94);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-94);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="48.15778"
          y="121.33862"
          id="text1536-3"
          inkscape:label="subtext-left-text"><tspan
            x="10"
-           y="142.747"
-           id="tspan438">contains:
+           y="137.90512"
+           id="tspan745">Waffle contains:
 </tspan><tspan
            x="10"
-           y="153.33035"
-           id="tspan440">- cereals containing </tspan><tspan
-           x="10"
-           y="163.91369"
-           id="tspan442">gluten
+           y="141.87387"
+           id="tspan747">- cereals containing gluten
 </tspan><tspan
            x="10"
-           y="174.49703"
-           id="tspan444">- eggs
+           y="145.84262"
+           id="tspan749">- eggs
 </tspan><tspan
            x="10"
-           y="185.08038"
-           id="tspan446">- milk
+           y="149.81137"
+           id="tspan751">- milk
 </tspan><tspan
            x="10"
-           y="195.66372"
-           id="tspan448">
+           y="153.78012"
+           id="tspan753">
 </tspan><tspan
            x="10"
-           y="206.24706"
-           id="tspan450">may contain:
+           y="157.74887"
+           id="tspan755">Waffle may contain:
 </tspan><tspan
            x="10"
-           y="216.83041"
-           id="tspan452">- soybeans
+           y="161.71762"
+           id="tspan757">- soybeans
 </tspan><tspan
            x="10"
-           y="227.41375"
-           id="tspan454">- nuts
+           y="165.68637"
+           id="tspan759">- nuts
 </tspan><tspan
            x="10"
-           y="237.99709"
-           id="tspan456">
+           y="169.65512"
+           id="tspan761">
 </tspan><tspan
            x="10"
-           y="248.58044"
-           id="tspan458">
+           y="173.62387"
+           id="tspan763">Waffle may contain caffeine.
 </tspan><tspan
            x="10"
-           y="259.16378"
-           id="tspan460">May contain caffeine</tspan></text><rect
+           y="177.59262"
+           id="tspan765">
+</tspan><tspan
+           x="10"
+           y="181.56137"
+           id="tspan767">vegan ice cream contains:
+</tspan><tspan
+           x="10"
+           y="185.53012"
+           id="tspan769">
+</tspan><tspan
+           x="10"
+           y="189.49887"
+           id="tspan771">vegan ice cream may contain:
+</tspan><tspan
+           x="10"
+           y="193.46762"
+           id="tspan773">  - nuts
+</tspan><tspan
+           x="10"
+           y="197.43637"
+           id="tspan775">  - cereals containing gluten
+</tspan><tspan
+           x="10"
+           y="201.40512"
+           id="tspan777">  - eggs
+</tspan><tspan
+           x="10"
+           y="205.37387"
+           id="tspan779">  - milk
+</tspan><tspan
+           x="10"
+           y="209.34262"
+           id="tspan781">
+</tspan><tspan
+           x="10"
+           y="213.31137"
+           id="tspan783">dairy ice cream (strawberry) contains:
+</tspan><tspan
+           x="10"
+           y="217.28012"
+           id="tspan785">  - eggs
+</tspan><tspan
+           x="10"
+           y="221.24887"
+           id="tspan787">  - milk
+</tspan><tspan
+           x="10"
+           y="225.21762"
+           id="tspan789">
+</tspan><tspan
+           x="10"
+           y="229.18637"
+           id="tspan791">dairy ice cream (strawberry) may contain:
+</tspan><tspan
+           x="10"
+           y="233.15512"
+           id="tspan793">  - nuts
+</tspan><tspan
+           x="10"
+           y="237.12387"
+           id="tspan795">
+</tspan><tspan
+           x="10"
+           y="241.09262"
+           id="tspan797">dairy ice cream (chocolate) contains:
+</tspan><tspan
+           x="10"
+           y="245.06137"
+           id="tspan799">  - soybeans
+</tspan><tspan
+           x="10"
+           y="249.03012"
+           id="tspan801">  - milk
+</tspan><tspan
+           x="10"
+           y="252.99887"
+           id="tspan803">
+</tspan><tspan
+           x="10"
+           y="256.96762"
+           id="tspan805">dairy ice cream (chocolate) may contrain:
+</tspan><tspan
+           x="10"
+           y="260.93637"
+           id="tspan807">  - nuts
+</tspan><tspan
+           x="10"
+           y="264.90512"
+           id="tspan809">
+</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
@@ -219,11 +388,11 @@
          inkscape:label="number-grid-text"><tspan
            x="-23"
            y="98.520875"
-           id="tspan462">.~ .~ .~ .~
+           id="tspan811">.~ .~ .~ .~
 </tspan><tspan
            x="-23"
            y="120.74593"
-           id="tspan464">.~ .~ .~ .~</tspan></text><rect
+           id="tspan813">.~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0-6"
          width="63"
@@ -242,11 +411,11 @@
          transform="translate(1.3125e-6)"><tspan
            x="-23"
            y="98.520875"
-           id="tspan466">! 1 .0 0
+           id="tspan815">! 1 .0 0
 </tspan><tspan
            x="-23"
            y="120.74593"
-           id="tspan468">! 0 .5 0</tspan></text><rect
+           id="tspan817">! 0 .5 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0"
          width="63"
@@ -265,11 +434,11 @@
          transform="translate(1.3125e-6,1.0297052)"><tspan
            x="-160"
            y="97.134612"
-           id="tspan470">per waffle
+           id="tspan819">per waffle
 </tspan><tspan
            x="-160"
            y="119.91473"
-           id="tspan472">per ball of ice</tspan></text><rect
+           id="tspan821">per ball of ice</tspan></text><rect
          style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.143022;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-9"
          width="130"
@@ -287,11 +456,11 @@
        inkscape:label="title-text"><tspan
          x="40.427629"
          y="28.874095"
-         id="tspan474">Ice Cream
+         id="tspan823">Ice Cream
 </tspan><tspan
          x="55.244301"
          y="64.151847"
-         id="tspan476">Waffles</tspan></text><rect
+         id="tspan825">Waffles</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"
