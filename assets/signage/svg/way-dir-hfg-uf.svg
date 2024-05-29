@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="way-dir-hfg-gf.svg"
+   sodipodi:docname="way-dir-hfg-uf.svg"
    inkscape:export-filename="preisliste-bar.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.68744938"
-     inkscape:cx="565.85984"
-     inkscape:cy="483.67197"
+     inkscape:cx="565.85985"
+     inkscape:cy="483.67198"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -74,48 +74,39 @@
        inkscape:label="subtext-text"><tspan
          x="50"
          y="43.525499"
-         id="tspan4350">Stairs
+         id="tspan1024">Stairs
 </tspan><tspan
          x="50"
          y="63.210497"
-         id="tspan4352">Elevator (Large)
+         id="tspan1026">Elevator (Large)
 </tspan><tspan
          x="50"
          y="82.895495"
-         id="tspan4354">Elevator (Small)
+         id="tspan1028">Elevator (Small)
 </tspan><tspan
          x="50"
          y="102.58049"
-         id="tspan4356">
+         id="tspan1030">
 </tspan><tspan
          x="50"
          y="122.26549"
-         id="tspan4358">Infodesk, Troll-Cave, ...
+         id="tspan1032">112
 </tspan><tspan
          x="50"
          y="141.95049"
-         id="tspan4360">POC
+         id="tspan1034">115
 </tspan><tspan
          x="50"
          y="161.63548"
-         id="tspan4362">safeR / First Aid
+         id="tspan1036">
 </tspan><tspan
          x="50"
          y="181.32048"
-         id="tspan4364">
+         id="tspan1038">Sendezentrum
 </tspan><tspan
          x="50"
          y="201.00548"
-         id="tspan4366">Blue Saloon
-</tspan><tspan
-         x="50"
-         y="220.69048"
-         id="tspan4368">Bar
-</tspan><tspan
-         x="50"
-         y="240.37548"
-         id="tspan4370">Lounge
-</tspan></text><rect
+         id="tspan1040">Hackcenter High</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.312587;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="135"
@@ -130,9 +121,9 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="14.91458"
+         x="21.484728"
          y="23.709469"
-         id="tspan4372">HfG Ground Floor</tspan></text><rect
+         id="tspan1042">HfG Upper Floor</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
@@ -143,37 +134,37 @@
        sodipodi:insensitive="true" /><g
        id="g4324"
        transform="translate(-15)"><rect
-         style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486"
          width="15"
          height="15"
          x="40"
          y="130.80724" /><rect
-         style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:none;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486-9"
          width="15"
          height="15"
          x="40"
          y="150.40273" /><rect
-         style="font-variation-settings:'wght' 400;display:none;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486-4"
          width="15"
          height="15"
          x="40"
          y="169.99821" /><rect
-         style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486-7"
          width="15"
          height="15"
          x="40"
          y="189.59372" /><rect
-         style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:none;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486-8"
          width="15"
          height="15"
          x="40"
          y="209.18921" /><rect
-         style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+         style="font-variation-settings:'wght' 400;display:none;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
          id="rect486-45"
          width="15"
          height="15"
