@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="woc-recipe-ice.svg"
+   sodipodi:docname="content-workshop-hfg-queue.svg"
    inkscape:export-filename="example-item.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -36,11 +36,11 @@
      inkscape:window-x="0"
      inkscape:window-y="111"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer5" /><defs
+     inkscape:current-layer="layer1" /><defs
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile458" /><rect
+       id="color-profile352" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -74,102 +74,69 @@
        inkscape:label="Subtext"
        transform="translate(0,5)"><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="106.53121"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="48.15778"
          y="121.33862"
          id="text1536"
-         inkscape:label="subtext-center-text"><tspan
-           x="95.195604"
-           y="52.747003"
-           id="tspan485">300g
-</tspan><tspan
-           x="95.195604"
-           y="63.330339"
-           id="tspan487">500g
-</tspan><tspan
-           x="95.195604"
-           y="73.913675"
-           id="tspan489">100g
-</tspan><tspan
-           x="100.43647"
-           y="84.497011"
-           id="tspan491">1 l
-</tspan><tspan
-           x="105"
-           y="95.080347"
-           id="tspan493">
-</tspan><tspan
-           x="95.195604"
-           y="105.66368"
-           id="tspan495">750g</tspan></text><rect
-         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.300005;stroke-linejoin:round;stop-color:#000000"
+         inkscape:label="subtext-center-text" /><rect
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.271364;stroke-linejoin:round;stop-color:#000000"
          id="rect1531"
          width="130"
-         height="220"
+         height="180"
          x="40"
-         y="45"
+         y="80"
          inkscape:label="subtext-center-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="129.54787"
+         x="123.94293"
          y="121.33862"
          id="text1536-5"
          inkscape:label="subtext-right-text"><tspan
-           x="133.7991"
-           y="52.747003"
-           id="tspan497">Vegan Margerine
+           x="200"
+           y="87.747003"
+           id="tspan391">
 </tspan><tspan
-           x="155.85478"
-           y="63.330339"
-           id="tspan499">Cane Sugar
-</tspan><tspan
-           x="135.78032"
-           y="73.913675"
-           id="tspan501">Powdered Sugar
-</tspan><tspan
-           x="163.76265"
-           y="84.497011"
-           id="tspan503">Oat Drink
-</tspan><tspan
-           x="184.98013"
-           y="95.080347"
-           id="tspan505">Salt
-</tspan><tspan
-           x="157.66665"
-           y="105.66368"
-           id="tspan507">Spelt Flour
-</tspan><tspan
-           x="147.13412"
-           y="116.24702"
-           id="tspan509">Vanilla Cream
-</tspan><tspan
-           x="160.79931"
-           y="126.83035"
-           id="tspan511">Cinnamon
+           x="158.49638"
+           y="98.330339"
+           id="tspan393">Right lane:
 </tspan><tspan
            x="200"
-           y="137.41369"
-           id="tspan513">
+           y="108.91367"
+           id="tspan395">
 </tspan><tspan
-           x="122.37758"
-           y="147.99703"
-           id="tspan515">After the dough has </tspan><tspan
-           x="126.49238"
-           y="158.58038"
-           id="tspan517">been made, please </tspan><tspan
-           x="136.56775"
-           y="169.16372"
-           id="tspan519">freeze a reserve </tspan><tspan
-           x="169.40145"
-           y="179.74706"
-           id="tspan521">sample.</tspan></text><rect
-         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.250562;stroke-linejoin:round;stop-color:#000000"
+           x="155.90558"
+           y="119.49701"
+           id="tspan397">last minute
+</tspan><tspan
+           x="200"
+           y="130.08035"
+           id="tspan399">
+</tspan><tspan
+           x="123.36818"
+           y="140.66369"
+           id="tspan401">without reservation
+</tspan><tspan
+           x="200"
+           y="151.24703"
+           id="tspan403">
+</tspan><tspan
+           x="200"
+           y="161.83038"
+           id="tspan405">
+</tspan><tspan
+           x="140.08984"
+           y="172.41372"
+           id="tspan407">attendance not </tspan><tspan
+           x="154.94038"
+           y="182.99706"
+           id="tspan409">guaranteed</tspan></text><rect
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.231975;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
-         height="210"
+         height="180"
          x="105"
-         y="45"
+         y="80"
          inkscape:label="subtext-right-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
@@ -179,77 +146,67 @@
          id="text1536-3"
          inkscape:label="subtext-left-text"><tspan
            x="10"
-           y="52.747003"
-           id="tspan523">Vegane Margerine
+           y="87.747003"
+           id="tspan411">
 </tspan><tspan
            x="10"
-           y="63.330339"
-           id="tspan525">Rohrzucker
+           y="98.330339"
+           id="tspan415"><tspan
+   style="-inkscape-font-specification:'Oxanium @wght=400'"
+   id="tspan413">Left lane:</tspan>
 </tspan><tspan
            x="10"
-           y="73.913675"
-           id="tspan527">Puderzucker
+           y="108.91367"
+           id="tspan417">
 </tspan><tspan
            x="10"
-           y="84.497011"
-           id="tspan529">Haferdrink
+           y="119.49701"
+           id="tspan419">with reservation
 </tspan><tspan
            x="10"
-           y="95.080347"
-           id="tspan531">Salz
+           y="130.08035"
+           id="tspan421">
 </tspan><tspan
            x="10"
-           y="105.66368"
-           id="tspan533">Dinkelmehl
+           y="140.66369"
+           id="tspan423">please have your
 </tspan><tspan
            x="10"
-           y="116.24702"
-           id="tspan535">Vanillecreme
+           y="151.24703"
+           id="tspan425">QR-Code ready
 </tspan><tspan
            x="10"
-           y="126.83035"
-           id="tspan537">Zimt
+           y="161.83038"
+           id="tspan427">
 </tspan><tspan
            x="10"
-           y="137.41369"
-           id="tspan539">
+           y="172.41372"
+           id="tspan429">until 5min before
 </tspan><tspan
            x="10"
-           y="147.99703"
-           id="tspan541">Nach dem der Teig </tspan><tspan
-           x="10"
-           y="158.58038"
-           id="tspan543">gemacht ist, bitte eine </tspan><tspan
-           x="10"
-           y="169.16372"
-           id="tspan545">Rückstellprobe </tspan><tspan
-           x="10"
-           y="179.74706"
-           id="tspan547">einfrieren.</tspan></text><rect
-         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.250562;stroke-linejoin:round;stop-color:#000000"
+           y="182.99706"
+           id="tspan431">start of workshop</tspan></text><rect
+         style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.231975;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
-         height="210"
+         height="180"
          x="10"
-         y="45"
+         y="80"
          inkscape:label="subtext-left-box"
-         sodipodi:insensitive="true" /><text
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222px;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778"
-         id="text212"
-         x="78.907166"
-         y="257.08844"
-         inkscape:label="attribution-no-load"><tspan
-           sodipodi:role="line"
-           id="tspan1404">Source: https://c3woc.de/rezept/???</tspan></text></g><text
+         sodipodi:insensitive="true" /></g><text
        xml:space="preserve"
        id="text1012"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2222px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="32.920557"
+         x="22.478373"
          y="28.874095"
-         id="tspan549">Ice Waffles</tspan></text><rect
+         id="tspan433">HfG 112/115
+</tspan><tspan
+         x="19.063425"
+         y="64.151847"
+         id="tspan435">Waiting Area:</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"

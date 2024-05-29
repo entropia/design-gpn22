@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="content-workshop-hfg115.svg"
+   sodipodi:docname="content-workshop-hfg-queue-info.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -75,26 +75,26 @@
        inkscape:label="subtext-text"><tspan
          x="148.5"
          y="70.98"
-         id="tspan347">
+         id="tspan532">
 </tspan><tspan
          x="148.5"
          y="85.98"
-         id="tspan349">
+         id="tspan534">
 </tspan><tspan
          x="148.5"
          y="100.98"
-         id="tspan351">
+         id="tspan536">
 </tspan><tspan
          x="148.5"
          y="115.98"
-         id="tspan353">
+         id="tspan538">
 </tspan><tspan
          x="39.090019"
          y="130.98"
-         id="tspan355">Please queue at waiting area. Do not go </tspan><tspan
+         id="tspan540">Please queue at waiting area. Do not go </tspan><tspan
          x="86.280006"
          y="145.98"
-         id="tspan357">directly into this room.</tspan></text><rect
+         id="tspan542">directly into this room.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -109,13 +109,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="69.675454"
+         x="24.717556"
          y="41.785752"
-         id="tspan359">HfG 115
+         id="tspan544">HfG 112/115
 </tspan><tspan
-         x="50.371414"
+         x="25.098468"
          y="94.702378"
-         id="tspan361">Workshop</tspan></text><rect
+         id="tspan546">Waiting Area</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

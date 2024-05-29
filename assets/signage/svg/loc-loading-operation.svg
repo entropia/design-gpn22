@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="kitchen-return.svg"
+   sodipodi:docname="loc-loading-operation.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.81700998"
-     inkscape:cx="547.11694"
-     inkscape:cy="417.98755"
+     inkscape:zoom="1.0779321"
+     inkscape:cx="564.04295"
+     inkscape:cy="397.5204"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -52,7 +52,16 @@
        y="143.31318"
        width="366.11545"
        height="340.02445"
-       id="rect1002" /></defs><g
+       id="rect1002" /><filter
+       style="color-interpolation-filters:sRGB"
+       id="filter1658"
+       inkscape:label="motionblur"
+       x="-0.032160001"
+       y="0"
+       width="1.06432"
+       height="1"><feGaussianBlur
+         stdDeviation="0.67000000000000004 0"
+         id="feGaussianBlur1660" /></filter></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"><image
@@ -60,7 +69,7 @@
        inkscape:svg-dpi="300"
        width="297"
        height="99"
-       xlink:href="../template/common-footer.svg"
+       xlink:href="../template/common-footer-bw.svg"
        id="image412"
        x="0"
        y="111"
@@ -72,7 +81,33 @@
        x="47.649776"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text" /><rect
+       inkscape:label="subtext-text"><tspan
+         x="18.5"
+         y="67.747003"
+         id="tspan362">
+</tspan><tspan
+         x="18.5"
+         y="78.330339"
+         id="tspan364">
+</tspan><tspan
+         x="18.5"
+         y="88.913675"
+         id="tspan366">
+</tspan><tspan
+         x="18.5"
+         y="99.497011"
+         id="tspan368">
+</tspan><tspan
+         x="18.5"
+         y="110.08035"
+         id="tspan370">
+</tspan><tspan
+         x="18.5"
+         y="120.66368"
+         id="tspan372">This elevator will be required to move large things between 16:00 </tspan><tspan
+         x="18.5"
+         y="131.24702"
+         id="tspan374">and 17:00. Please use another elevator.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -87,13 +122,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="62.224727"
          y="41.785752"
-         id="tspan2696">
+         id="tspan376">Logistics
 </tspan><tspan
-         x="19.298762"
+         x="41.354408"
          y="94.702378"
-         id="tspan2698">dishes return</tspan></text><rect
+         id="tspan378">Operations</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
@@ -101,4 +136,28 @@
        x="5"
        y="-8.8817842e-16"
        inkscape:label="titel-box"
-       sodipodi:insensitive="true" /></g></svg>
+       sodipodi:insensitive="true" /><image
+       preserveAspectRatio="none"
+       inkscape:svg-dpi="300"
+       width="50"
+       height="33.116859"
+       xlink:href="../template/entropia-loc.svg"
+       id="image835"
+       x="261.58682"
+       y="62.446815"
+       transform="rotate(14.26584)"
+       style="filter:url(#filter1658)" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:125%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="155.68581"
+       y="156.64252"
+       id="text1019"><tspan
+         sodipodi:role="line"
+         id="tspan1674">___!!!___!!!___!!!!!!!_</tspan></text><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:125%;font-family:'DSEG14 Modern';-inkscape-font-specification:'DSEG14 Modern, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="148.78581"
+       y="168.76045"
+       id="text1019-3"><tspan
+         sodipodi:role="line"
+         id="tspan1676">_______________________</tspan></text></g></svg>

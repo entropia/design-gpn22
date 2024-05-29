@@ -74,59 +74,71 @@
        inkscape:label="subtext-text"><tspan
          x="12.5"
          y="57.747003"
-         id="tspan344">
+         id="tspan349">
 </tspan><tspan
          x="12.5"
          y="68.330339"
-         id="tspan346">Kräuterquark: Laktose
+         id="tspan351">Kräuterquark: Laktose
 </tspan><tspan
          x="12.5"
          y="78.913675"
-         id="tspan348">
+         id="tspan353">
 </tspan><tspan
          x="12.5"
          y="89.497011"
-         id="tspan350">Aioli: Senf, Soja
+         id="tspan355">Aioli: Senf, Soja
 </tspan><tspan
          x="12.5"
          y="100.08035"
-         id="tspan352">
+         id="tspan357">
 </tspan><tspan
          x="12.5"
          y="110.66368"
-         id="tspan354">Flammkuchen:
+         id="tspan359">Flammkuchen (alle):
 </tspan><tspan
          x="12.5"
          y="121.24702"
-         id="tspan356">		Gluten, Soja, Tomtate, Rucola,
+         id="tspan361">        Gluten
 </tspan><tspan
          x="12.5"
          y="131.83035"
-         id="tspan358">		Balsamico, Sulfite
+         id="tspan363">Flammkuchen (Räuchertofu-Zwiebel):
 </tspan><tspan
          x="12.5"
          y="142.41369"
-         id="tspan360">
+         id="tspan365">        Soja
 </tspan><tspan
          x="12.5"
          y="152.99703"
-         id="tspan362">Süßkartoffelcurry: Erdnüsse
+         id="tspan367">Flammkuchen (Tomate-Rucola-Balsamico):
 </tspan><tspan
          x="12.5"
          y="163.58038"
-         id="tspan364">
+         id="tspan369">        Sulfite
 </tspan><tspan
          x="12.5"
          y="174.16372"
-         id="tspan366">Soja-Gulasch: Soja
+         id="tspan371">
 </tspan><tspan
          x="12.5"
          y="184.74706"
-         id="tspan368">
+         id="tspan373">Süßkartoffelcurry: Erdnüsse
 </tspan><tspan
          x="12.5"
          y="195.33041"
-         id="tspan370">Salat Dressing: Senf</tspan></text><rect
+         id="tspan375">
+</tspan><tspan
+         x="12.5"
+         y="205.91375"
+         id="tspan377">Soja-Gulasch: Soja
+</tspan><tspan
+         x="12.5"
+         y="216.49709"
+         id="tspan379">
+</tspan><tspan
+         x="12.5"
+         y="227.08044"
+         id="tspan381">Salat Dressing: Senf</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="185"
@@ -143,7 +155,7 @@
        inkscape:label="title-text"><tspan
          x="11.612763"
          y="41.785752"
-         id="tspan372">Allergene</tspan></text><rect
+         id="tspan383">Allergene</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
