@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="kitchen-backed-potatoes-en.svg"
+   sodipodi:docname="kitchen-lentilsoup.svg"
    inkscape:export-filename="example-item.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -36,11 +36,11 @@
      inkscape:window-x="0"
      inkscape:window-y="111"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" /><defs
+     inkscape:current-layer="layer5" /><defs
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile1236" /><rect
+       id="color-profile1179" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -88,34 +88,26 @@
          inkscape:label="subtext-center-box"
          sodipodi:insensitive="true" /><text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="48.15778"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-6);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="136.28735"
          y="121.33862"
          id="text1536-5"
          inkscape:label="subtext-right-text"><tspan
-           x="105"
+           x="128.93076"
            y="142.747"
-           id="tspan1264">mit wahlweise:
+           id="tspan1209">Rote-Linsensuppe
 </tspan><tspan
-           x="105"
+           x="200"
            y="153.33035"
-           id="tspan1266">- Kräuterquark
+           id="tspan1211">
 </tspan><tspan
-           x="105"
+           x="165.42212"
            y="163.91369"
-           id="tspan1268">- Aioli
+           id="tspan1213">mit Salat
 </tspan><tspan
-           x="105"
+           x="146.82931"
            y="174.49703"
-           id="tspan1270">- Salsa (mild)
-</tspan><tspan
-           x="105"
-           y="185.08038"
-           id="tspan1272">
-</tspan><tspan
-           x="105"
-           y="195.66372"
-           id="tspan1274">mit Salat</tspan></text><rect
+           id="tspan1215">und Baguette</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
@@ -132,27 +124,19 @@
          inkscape:label="subtext-left-text"><tspan
            x="10"
            y="142.747"
-           id="tspan1276">with one of:
+           id="tspan1217">red lentil soup
 </tspan><tspan
            x="10"
            y="153.33035"
-           id="tspan1278">- herb quark
+           id="tspan1219">
 </tspan><tspan
            x="10"
            y="163.91369"
-           id="tspan1280">- aioli
+           id="tspan1221">with salad
 </tspan><tspan
            x="10"
            y="174.49703"
-           id="tspan1282">- salsa (mild)
-</tspan><tspan
-           x="10"
-           y="185.08038"
-           id="tspan1284">
-</tspan><tspan
-           x="10"
-           y="195.66372"
-           id="tspan1286">with salad</tspan></text><rect
+           id="tspan1223">and baguette</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
@@ -174,7 +158,7 @@
          inkscape:label="number-grid-text"><tspan
            x="-23"
            y="98.520875"
-           id="tspan1288">.~ .~ .~ .~</tspan></text><rect
+           id="tspan1225">.~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0-6"
          width="63"
@@ -193,7 +177,7 @@
          transform="translate(1.3125e-6)"><tspan
            x="-23"
            y="98.520875"
-           id="tspan1290">! 5 .0 0</tspan></text><rect
+           id="tspan1227">! 7 .0 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0"
          width="63"
@@ -212,7 +196,7 @@
          transform="translate(1.3125e-6,1.0297052)"><tspan
            x="-160"
            y="97.134612"
-           id="tspan1292">Serving</tspan></text><rect
+           id="tspan1229">Serving</tspan></text><rect
          style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.143022;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-9"
          width="130"
@@ -224,17 +208,17 @@
          sodipodi:insensitive="true" /></g><text
        xml:space="preserve"
        id="text1012"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.1056px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2222px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="10.236693"
-         y="26.937406"
-         id="tspan1294">Baked potatoes
+         x="33.343819"
+         y="28.874095"
+         id="tspan1231">Lentil soup
 </tspan><tspan
-         x="15.744986"
-         y="59.569406"
-         id="tspan1296">Ofenkartoffeln</tspan></text><rect
+         x="22.534705"
+         y="64.151847"
+         id="tspan1233">Linsensuppe</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"

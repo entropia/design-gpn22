@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="kitchen-backed-potatoes-en.svg"
+   sodipodi:docname="kitchen-tarte-flambee.svg"
    inkscape:export-filename="example-item.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -36,11 +36,11 @@
      inkscape:window-x="0"
      inkscape:window-y="111"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" /><defs
+     inkscape:current-layer="layer5" /><defs
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile1236" /><rect
+       id="color-profile360" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -95,27 +95,35 @@
          inkscape:label="subtext-right-text"><tspan
            x="105"
            y="142.747"
-           id="tspan1264">mit wahlweise:
+           id="tspan395">mit wahlweise:
 </tspan><tspan
            x="105"
            y="153.33035"
-           id="tspan1266">- Kräuterquark
+           id="tspan397">- Tomate
 </tspan><tspan
            x="105"
            y="163.91369"
-           id="tspan1268">- Aioli
+           id="tspan399">	&amp; Ruccola
 </tspan><tspan
            x="105"
            y="174.49703"
-           id="tspan1270">- Salsa (mild)
+           id="tspan401">	&amp; Balsamico
 </tspan><tspan
            x="105"
            y="185.08038"
-           id="tspan1272">
+           id="tspan403">- Räuchtertofu-Zwiebel
 </tspan><tspan
            x="105"
            y="195.66372"
-           id="tspan1274">mit Salat</tspan></text><rect
+           id="tspan405">- Lauch-Apfel
+</tspan><tspan
+           x="105"
+           y="206.24706"
+           id="tspan407">
+</tspan><tspan
+           x="105"
+           y="216.83041"
+           id="tspan409">mit Salat</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
@@ -132,27 +140,35 @@
          inkscape:label="subtext-left-text"><tspan
            x="10"
            y="142.747"
-           id="tspan1276">with one of:
+           id="tspan411">with one of:
 </tspan><tspan
            x="10"
            y="153.33035"
-           id="tspan1278">- herb quark
+           id="tspan413">- tomato
 </tspan><tspan
            x="10"
            y="163.91369"
-           id="tspan1280">- aioli
+           id="tspan415">	&amp; rocket
 </tspan><tspan
            x="10"
            y="174.49703"
-           id="tspan1282">- salsa (mild)
+           id="tspan417">	&amp; balsamic
 </tspan><tspan
            x="10"
            y="185.08038"
-           id="tspan1284">
+           id="tspan419">- smoked tofu-onion
 </tspan><tspan
            x="10"
            y="195.66372"
-           id="tspan1286">with salad</tspan></text><rect
+           id="tspan421">- leek-apple
+</tspan><tspan
+           x="10"
+           y="206.24706"
+           id="tspan423">
+</tspan><tspan
+           x="10"
+           y="216.83041"
+           id="tspan425">with salad</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
@@ -174,7 +190,7 @@
          inkscape:label="number-grid-text"><tspan
            x="-23"
            y="98.520875"
-           id="tspan1288">.~ .~ .~ .~</tspan></text><rect
+           id="tspan427">.~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0-6"
          width="63"
@@ -193,7 +209,7 @@
          transform="translate(1.3125e-6)"><tspan
            x="-23"
            y="98.520875"
-           id="tspan1290">! 5 .0 0</tspan></text><rect
+           id="tspan429">! 7 .0 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0"
          width="63"
@@ -212,7 +228,7 @@
          transform="translate(1.3125e-6,1.0297052)"><tspan
            x="-160"
            y="97.134612"
-           id="tspan1292">Serving</tspan></text><rect
+           id="tspan431">Serving</tspan></text><rect
          style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.143022;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-9"
          width="130"
@@ -224,17 +240,17 @@
          sodipodi:insensitive="true" /></g><text
        xml:space="preserve"
        id="text1012"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.1056px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2222px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="10.236693"
-         y="26.937406"
-         id="tspan1294">Baked potatoes
+         x="13.701191"
+         y="28.874095"
+         id="tspan433">Tarte flambée
 </tspan><tspan
-         x="15.744986"
-         y="59.569406"
-         id="tspan1296">Ofenkartoffeln</tspan></text><rect
+         x="12.88274"
+         y="64.151847"
+         id="tspan435">Flammkuchen</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"
