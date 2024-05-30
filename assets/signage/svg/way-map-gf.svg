@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.0870964"
-     inkscape:cx="572.16637"
-     inkscape:cy="476.95862"
+     inkscape:zoom="0.66837461"
+     inkscape:cx="526.65077"
+     inkscape:cy="452.5905"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -136,11 +136,30 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="47.649776"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
+       x="102.9441"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text" /><g
+       inkscape:label="subtext-text"><tspan
+         x="148.5"
+         y="82.911657"
+         id="tspan3548">
+</tspan><tspan
+         x="148.5"
+         y="100.55053"
+         id="tspan3550">
+</tspan><tspan
+         x="148.5"
+         y="118.18941"
+         id="tspan3552">
+</tspan><tspan
+         x="148.5"
+         y="135.82829"
+         id="tspan3554">
+</tspan><tspan
+         x="90.665679"
+         y="153.46717"
+         id="tspan3556">ZKM |             HfG    </tspan></text><g
        id="g7533"
        transform="matrix(0.6229221,0,0,0.6229221,-274.56317,377.32977)"><path
          style="display:inline;fill:#fff3e1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.750001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
@@ -4459,10 +4478,10 @@
          y="0"><tspan
            x="1121.7206"
            y="351.7536"
-           id="tspan8437">Medien-</tspan><tspan
+           id="tspan3558">Medien-</tspan><tspan
            x="1127.134"
            y="385.08698"
-           id="tspan8439">theater</tspan></text><text
+           id="tspan3560">theater</tspan></text><text
          xml:space="preserve"
          id="text8397-6"
          style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect8397-2);display:inline;fill:#ffffff;stroke-width:1.1112"
@@ -4471,11 +4490,11 @@
          y="0"><tspan
            x="1113.8616"
            y="351.7536"
-           id="tspan8441">Blauer 
+           id="tspan3562">Blauer 
 </tspan><tspan
            x="1123.6349"
            y="385.08698"
-           id="tspan8443">Salon</tspan></text><text
+           id="tspan3564">Salon</tspan></text><text
          xml:space="preserve"
          id="text8398"
          style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8398);display:inline;fill:#ffffff;stroke-width:1.1112"
@@ -4484,27 +4503,27 @@
          y="0"><tspan
            x="1116.1186"
            y="670.52118"
-           id="tspan8447"><tspan
+           id="tspan3568"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan8445">Vortragssaal</tspan></tspan></text><text
+             id="tspan3566">Vortragssaal</tspan></tspan></text><text
          xml:space="preserve"
          id="text8399"
          style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8399);display:inline;stroke-width:1.1112"
          transform="matrix(0.23811529,0,0,0.23809809,319.31187,-544.3853)"><tspan
            x="1585.6543"
            y="352.42353"
-           id="tspan8451"><tspan
+           id="tspan3572"><tspan
              style="fill:#ffffff"
-             id="tspan8449">Bar</tspan></tspan></text><text
+             id="tspan3570">Bar</tspan></tspan></text><text
          xml:space="preserve"
          id="text8412"
          style="font-size:26.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8412);display:inline;stroke-width:1.1112"
          transform="matrix(0.23811529,0,0,0.23809809,286.4036,-579.41671)"><tspan
            x="990"
            y="447.26337"
-           id="tspan8455"><tspan
+           id="tspan3576"><tspan
              style="fill:#ffffff"
-             id="tspan8453">Foyer</tspan></tspan></text><text
+             id="tspan3574">Foyer</tspan></tspan></text><text
          id="text1905-1"
          y="-369.24356"
          x="824.89166"
@@ -4884,7 +4903,7 @@
        width="260"
        height="105.00007"
        x="18.5"
-       y="60"
+       y="70"
        inkscape:label="subtext-box"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
@@ -4895,7 +4914,7 @@
        inkscape:label="title-text"><tspan
          x="21.711767"
          y="41.785752"
-         id="tspan8457">Ground Floor</tspan></text><rect
+         id="tspan3578">Ground Floor</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

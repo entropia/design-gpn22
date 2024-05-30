@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.67334197"
-     inkscape:cx="660.88261"
-     inkscape:cy="627.4672"
+     inkscape:zoom="0.9078755"
+     inkscape:cx="582.67901"
+     inkscape:cy="365.13817"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
      inkscape:window-x="0"
@@ -124,11 +124,30 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="47.649776"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1111px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
+       x="79.666473"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text" /><rect
+       inkscape:label="subtext-text"><tspan
+         x="148.5"
+         y="72.911657"
+         id="tspan2629">
+</tspan><tspan
+         x="148.5"
+         y="90.550535"
+         id="tspan2631">
+</tspan><tspan
+         x="148.5"
+         y="108.18941"
+         id="tspan2633">
+</tspan><tspan
+         x="148.5"
+         y="125.82829"
+         id="tspan2635">
+</tspan><tspan
+         x="92.35901"
+         y="143.46717"
+         id="tspan2637">ZKM     |           HfG</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -145,7 +164,7 @@
        inkscape:label="title-text"><tspan
          x="34.030773"
          y="41.785752"
-         id="tspan7349">Upper Floor</tspan></text><g
+         id="tspan2639">Upper Floor</tspan></text><g
        id="g6734"
        transform="matrix(0.50068782,0,0,0.50068782,-140.6734,138.762)"><path
          style="display:inline;fill:#fff3e1;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-opacity:0.652174"
@@ -3135,11 +3154,11 @@
          transform="matrix(0.23811529,0,0,0.23809809,268.40335,-366.44499)"><tspan
            x="1585.1909"
            y="865.20839"
-           id="tspan7351">Workshop
+           id="tspan2641">Workshop
 </tspan><tspan
            x="1609.6948"
            y="885.20839"
-           id="tspan7353">112</tspan></text><text
+           id="tspan2643">112</tspan></text><text
          xml:space="preserve"
          id="text8395-9"
          style="font-size:16px;line-height:1.25;font-family:sans-serif;text-align:center;white-space:pre;shape-inside:url(#rect8395-9);display:inline;fill:#ffffff;stroke-width:1.1112"
@@ -3148,24 +3167,24 @@
          transform="matrix(0.23811529,0,0,0.23809809,314.21852,-368.87433)"><tspan
            x="1602.2329"
            y="865.20839"
-           id="tspan7355">Work-
+           id="tspan2645">Work-
 </tspan><tspan
            x="1603.8889"
            y="885.20839"
-           id="tspan7357">shop 
+           id="tspan2647">shop 
 </tspan><tspan
            x="1610.7769"
            y="905.20839"
-           id="tspan7359">115</tspan></text><text
+           id="tspan2649">115</tspan></text><text
          xml:space="preserve"
          id="text8396"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.6319px;line-height:1.25;font-family:Oxanium;-inkscape-font-specification:Oxanium;white-space:pre;shape-inside:url(#rect8396);display:inline;stroke-width:1.1112"
          transform="matrix(0.23811529,0,0,0.23809809,238.23307,-381.73274)"><tspan
            x="597.50586"
            y="1722.0487"
-           id="tspan7363"><tspan
+           id="tspan2653"><tspan
              style="fill:#ffffff"
-             id="tspan7361">ZKM Kubus</tspan></tspan></text><text
+             id="tspan2651">ZKM Kubus</tspan></tspan></text><text
          xml:space="preserve"
          id="text8410"
          style="font-size:16px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect8410);display:inline;stroke-width:1.1112"
@@ -3174,15 +3193,15 @@
          y="0"><tspan
            x="892.47983"
            y="1125.558"
-           id="tspan7367"><tspan
+           id="tspan2657"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan7365">Quiet 
+             id="tspan2655">Quiet 
 </tspan></tspan><tspan
            x="872.68784"
            y="1145.558"
-           id="tspan7371"><tspan
+           id="tspan2661"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan7369">Hackcenter</tspan></tspan></text><path
+             id="tspan2659">Hackcenter</tspan></tspan></text><path
          inkscape:transform-center-y="1.8990257"
          d="m 497.47464,652.06986 -17.54242,0 8.77121,-15.19219 z"
          inkscape:randomized="0"
