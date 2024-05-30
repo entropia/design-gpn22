@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="kitchen-allergens-en.svg"
+   sodipodi:docname="woc-allergens-en.svg"
    inkscape:export-filename="preisliste-bar.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -67,78 +67,149 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="47.649776"
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
          x="12.5"
-         y="57.747003"
-         id="tspan349">
+         y="55.132919"
+         id="tspan472"><tspan
+           style="font-size:7.05556px"
+           id="tspan470">
+</tspan></tspan><tspan
+         x="12.5"
+         y="61.920364"
+         id="tspan476"><tspan
+   style="font-size:7.05556px"
+   id="tspan474">croissants</tspan>
 </tspan><tspan
          x="12.5"
-         y="68.330339"
-         id="tspan351">Herb quark: lactose
+         y="68.093974"
+         id="tspan478">contain: cereals containing gluten, eggs, milk
 </tspan><tspan
          x="12.5"
-         y="78.913675"
-         id="tspan353">
+         y="74.267589"
+         id="tspan480">may contain: soybeans, nuts
 </tspan><tspan
          x="12.5"
-         y="89.497011"
-         id="tspan355">Aioli: mustard, soy
+         y="80.441203"
+         id="tspan482">
 </tspan><tspan
          x="12.5"
-         y="100.08035"
-         id="tspan357">
+         y="87.228652"
+         id="tspan486"><tspan
+   style="font-size:7.05556px"
+   id="tspan484">classic waffles</tspan>
 </tspan><tspan
          x="12.5"
-         y="110.66368"
-         id="tspan359">Tarte flambée (all variants):
+         y="93.402263"
+         id="tspan488">contain: cereals containing gluten, eggs, milk
 </tspan><tspan
          x="12.5"
-         y="121.24702"
-         id="tspan361">		Gluten 
+         y="99.575878"
+         id="tspan490">may contain: soybeans, nuts, caffeine
 </tspan><tspan
          x="12.5"
-         y="131.83035"
-         id="tspan363">Tarte flambée (Smoked tofu and onion):
+         y="105.74949"
+         id="tspan492">
 </tspan><tspan
          x="12.5"
-         y="142.41369"
-         id="tspan365">		Soy
+         y="112.53694"
+         id="tspan496"><tspan
+   style="font-size:7.05556px"
+   id="tspan494">vegan waffles</tspan>
 </tspan><tspan
          x="12.5"
-         y="152.99703"
-         id="tspan367">Tarte flambée (Tomato-Rocket-Balsamic):
+         y="118.71055"
+         id="tspan498">contain: cereals containing gluten
 </tspan><tspan
          x="12.5"
-         y="163.58038"
-         id="tspan369">		Sulphites
+         y="124.88417"
+         id="tspan500">may contain: soybeans, nuts, eggs, milk, caffeine
 </tspan><tspan
          x="12.5"
-         y="174.16372"
-         id="tspan371">
+         y="131.05778"
+         id="tspan502">
 </tspan><tspan
          x="12.5"
-         y="184.74706"
-         id="tspan373">Sweet potato curry: Peanuts
+         y="137.84523"
+         id="tspan506"><tspan
+   style="font-size:7.05556px"
+   id="tspan504">gluten free waffles</tspan>
 </tspan><tspan
          x="12.5"
-         y="195.33041"
-         id="tspan375">
+         y="144.01884"
+         id="tspan508">contain: eggs, milk
 </tspan><tspan
          x="12.5"
-         y="205.91375"
-         id="tspan377">Soy goulash: Soy
+         y="150.19245"
+         id="tspan510">may contain: soybeans, nuts, cereals containing gluten, caffeine
 </tspan><tspan
          x="12.5"
-         y="216.49709"
-         id="tspan379">
+         y="156.36607"
+         id="tspan512">
 </tspan><tspan
          x="12.5"
-         y="227.08044"
-         id="tspan381">Salad dressing: Mustard</tspan></text><rect
+         y="163.15352"
+         id="tspan516"><tspan
+   style="font-size:7.05556px"
+   id="tspan514">ice cream waffles</tspan>
+</tspan><tspan
+         x="12.5"
+         y="169.32713"
+         id="tspan518">contain: cereals containing gluten
+</tspan><tspan
+         x="12.5"
+         y="175.50074"
+         id="tspan520">
+</tspan><tspan
+         x="12.5"
+         y="182.28819"
+         id="tspan524"><tspan
+   style="font-size:7.05556px"
+   id="tspan522">vegan ice cream</tspan>
+</tspan><tspan
+         x="12.5"
+         y="188.4618"
+         id="tspan526">may contain: nuts, cereals containing gluten, eggs, milk
+</tspan><tspan
+         x="12.5"
+         y="194.63542"
+         id="tspan528">
+</tspan><tspan
+         x="12.5"
+         y="201.42287"
+         id="tspan532"><tspan
+   style="font-size:7.05556px"
+   id="tspan530">dairy ice cream (strawberry)</tspan>
+</tspan><tspan
+         x="12.5"
+         y="207.59648"
+         id="tspan534">contain: eggs, milk
+</tspan><tspan
+         x="12.5"
+         y="213.77009"
+         id="tspan536">may contain: nuts
+</tspan><tspan
+         x="12.5"
+         y="219.94371"
+         id="tspan538">
+</tspan><tspan
+         x="12.5"
+         y="226.73115"
+         id="tspan542"><tspan
+   style="font-size:7.05556px"
+   id="tspan540">dairy ice cream (chocolate)</tspan>
+</tspan><tspan
+         x="12.5"
+         y="232.90477"
+         id="tspan544">contain: soybeans, milk
+</tspan><tspan
+         x="12.5"
+         y="239.07838"
+         id="tspan546">may contain: nuts
+</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="185"
@@ -155,7 +226,7 @@
        inkscape:label="title-text"><tspan
          x="13.179083"
          y="41.785752"
-         id="tspan383">Allergens</tspan></text><rect
+         id="tspan548">Allergens</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"

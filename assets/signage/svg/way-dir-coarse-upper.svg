@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="kitchen-allergens-en.svg"
+   sodipodi:docname="way-dir-coarse-upper.svg"
    inkscape:export-filename="preisliste-bar.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -67,84 +67,32 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.75px;line-height:155%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="47.649776"
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
-         x="12.5"
-         y="57.747003"
-         id="tspan349">
+         x="65"
+         y="46.313749"
+         id="tspan347">ZKM
 </tspan><tspan
-         x="12.5"
-         y="68.330339"
-         id="tspan351">Herb quark: lactose
+         x="65"
+         y="95.526247"
+         id="tspan349">HfG
 </tspan><tspan
-         x="12.5"
-         y="78.913675"
-         id="tspan353">
+         x="65"
+         y="144.73874"
+         id="tspan351">Stairs
 </tspan><tspan
-         x="12.5"
-         y="89.497011"
-         id="tspan355">Aioli: mustard, soy
-</tspan><tspan
-         x="12.5"
-         y="100.08035"
-         id="tspan357">
-</tspan><tspan
-         x="12.5"
-         y="110.66368"
-         id="tspan359">Tarte flambée (all variants):
-</tspan><tspan
-         x="12.5"
-         y="121.24702"
-         id="tspan361">		Gluten 
-</tspan><tspan
-         x="12.5"
-         y="131.83035"
-         id="tspan363">Tarte flambée (Smoked tofu and onion):
-</tspan><tspan
-         x="12.5"
-         y="142.41369"
-         id="tspan365">		Soy
-</tspan><tspan
-         x="12.5"
-         y="152.99703"
-         id="tspan367">Tarte flambée (Tomato-Rocket-Balsamic):
-</tspan><tspan
-         x="12.5"
-         y="163.58038"
-         id="tspan369">		Sulphites
-</tspan><tspan
-         x="12.5"
-         y="174.16372"
-         id="tspan371">
-</tspan><tspan
-         x="12.5"
-         y="184.74706"
-         id="tspan373">Sweet potato curry: Peanuts
-</tspan><tspan
-         x="12.5"
-         y="195.33041"
-         id="tspan375">
-</tspan><tspan
-         x="12.5"
-         y="205.91375"
-         id="tspan377">Soy goulash: Soy
-</tspan><tspan
-         x="12.5"
-         y="216.49709"
-         id="tspan379">
-</tspan><tspan
-         x="12.5"
-         y="227.08044"
-         id="tspan381">Salad dressing: Mustard</tspan></text><rect
-       style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
+         x="65"
+         y="193.95125"
+         id="tspan353">Elevator</tspan></text><rect
+       style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.322619;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
-       width="185"
-       height="210"
-       x="12.5"
-       y="50"
+       width="135"
+       height="245"
+       x="65"
+       y="12.5"
        inkscape:label="subtext-box"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
@@ -152,10 +100,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
-       inkscape:label="title-text"><tspan
-         x="13.179083"
-         y="41.785752"
-         id="tspan383">Allergens</tspan></text><rect
+       inkscape:label="title-text" /><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
@@ -163,4 +108,28 @@
        x="5"
        y="-8.8817842e-16"
        inkscape:label="titel-box"
-       sodipodi:insensitive="true" /></g></svg>
+       sodipodi:insensitive="true" /><rect
+       style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect486"
+       width="30"
+       height="30"
+       x="25"
+       y="20.75" /><rect
+       style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect486-9"
+       width="30"
+       height="30"
+       x="25"
+       y="69.219414" /><rect
+       style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect486-2"
+       width="30"
+       height="30"
+       x="25"
+       y="117.54785" /><rect
+       style="font-variation-settings:'wght' 400;fill:none;stroke:#dddddd;stroke-width:1;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect486-28"
+       width="30"
+       height="30"
+       x="25"
+       y="168.71915" /></g></svg>

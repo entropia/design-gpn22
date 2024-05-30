@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="content-workshop-hfg115.svg"
+   sodipodi:docname="kitchen-verpackung.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="548.34092"
+     inkscape:cx="547.11694"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -68,33 +68,11 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center;font-size:12px"
-       x="156.62776"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.649776"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text"><tspan
-         x="148.5"
-         y="70.98"
-         id="tspan347">
-</tspan><tspan
-         x="148.5"
-         y="85.98"
-         id="tspan349">
-</tspan><tspan
-         x="148.5"
-         y="100.98"
-         id="tspan351">
-</tspan><tspan
-         x="148.5"
-         y="115.98"
-         id="tspan353">
-</tspan><tspan
-         x="39.090019"
-         y="130.98"
-         id="tspan355">Please queue at waiting area. Do not go </tspan><tspan
-         x="86.280006"
-         y="145.98"
-         id="tspan357">directly into this room.</tspan></text><rect
+       inkscape:label="subtext-text" /><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -105,21 +83,29 @@
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
        id="text1012"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:28.2222px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="69.675454"
-         y="41.785752"
-         id="tspan359">HfG 115
+         x="44.571627"
+         y="30.920219"
+         id="tspan452"><tspan
+   style="font-size:35.2778px"
+   id="tspan450">GPN-Kitchen</tspan>
 </tspan><tspan
-         x="50.371414"
-         y="94.702378"
-         id="tspan361">Workshop</tspan></text><rect
-       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
+         x="9.957234"
+         y="66.19797"
+         id="tspan454">Packaging is required </tspan><tspan
+         x="85.59274"
+         y="101.47572"
+         id="tspan456">for return </tspan><tspan
+         x="54.576515"
+         y="136.75347"
+         id="tspan458">transportation</tspan></text><rect
+       style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.353045;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
-       height="109.99996"
+       height="170"
        x="5"
        y="-8.8817842e-16"
        inkscape:label="titel-box"
