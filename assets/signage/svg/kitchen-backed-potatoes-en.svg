@@ -40,7 +40,7 @@
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile361" /><rect
+       id="color-profile357" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -95,35 +95,35 @@
          inkscape:label="subtext-right-text"><tspan
            x="105"
            y="142.747"
-           id="tspan386">Ofenkartoffeln
+           id="tspan402">Ofenkartoffeln
 </tspan><tspan
            x="105"
            y="153.33035"
-           id="tspan388">
+           id="tspan404">
 </tspan><tspan
            x="105"
            y="163.91369"
-           id="tspan390">Mit wahlweise:
+           id="tspan406">Mit wahlweise:
 </tspan><tspan
            x="105"
            y="174.49703"
-           id="tspan392">- Kräuterquark
+           id="tspan408">- Kräuterquark
 </tspan><tspan
            x="105"
            y="185.08038"
-           id="tspan394">- Aioli
+           id="tspan410">- Aioli
 </tspan><tspan
            x="105"
            y="195.66372"
-           id="tspan396">- Salsa (mild)
+           id="tspan412">- Salsa (mild)
 </tspan><tspan
            x="105"
            y="206.24706"
-           id="tspan398">
+           id="tspan414">
 </tspan><tspan
            x="105"
            y="216.83041"
-           id="tspan400">Mit Salat</tspan></text><rect
+           id="tspan416">Mit Salat</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-6"
          width="95"
@@ -140,35 +140,35 @@
          inkscape:label="subtext-left-text"><tspan
            x="10"
            y="142.747"
-           id="tspan402">Baked potatoes
+           id="tspan418">Baked potatoes
 </tspan><tspan
            x="10"
            y="153.33035"
-           id="tspan404">
+           id="tspan420">
 </tspan><tspan
            x="10"
            y="163.91369"
-           id="tspan406">with one of:
+           id="tspan422">with one of:
 </tspan><tspan
            x="10"
            y="174.49703"
-           id="tspan408">- Herb quark
+           id="tspan424">- Herb quark
 </tspan><tspan
            x="10"
            y="185.08038"
-           id="tspan410">- aioli
+           id="tspan426">- aioli
 </tspan><tspan
            x="10"
            y="195.66372"
-           id="tspan412">- salsa (mild)
+           id="tspan428">- salsa (mild)
 </tspan><tspan
            x="10"
            y="206.24706"
-           id="tspan414">
+           id="tspan430">
 </tspan><tspan
            x="10"
            y="216.83041"
-           id="tspan416">with salad</tspan></text><rect
+           id="tspan432">with salad</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.197141;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-94"
          width="95"
@@ -190,11 +190,7 @@
          inkscape:label="number-grid-text"><tspan
            x="-23"
            y="98.520875"
-           id="tspan418">.~ .~ .~ .~
-</tspan><tspan
-           x="-23"
-           y="120.74593"
-           id="tspan420">.~ .~ .~ .~</tspan></text><rect
+           id="tspan434">.~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0-6"
          width="63"
@@ -213,11 +209,7 @@
          transform="translate(1.3125e-6)"><tspan
            x="-23"
            y="98.520875"
-           id="tspan422">! X .X X
-</tspan><tspan
-           x="-23"
-           y="120.74593"
-           id="tspan424">! X .X X</tspan></text><rect
+           id="tspan436">! 5 .0 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.085102;stroke-linejoin:round;stop-color:#000000"
          id="rect767-0"
          width="63"
@@ -236,11 +228,7 @@
          transform="translate(1.3125e-6,1.0297052)"><tspan
            x="-160"
            y="97.134612"
-           id="tspan426">Serving
-</tspan><tspan
-           x="-160"
-           y="119.91473"
-           id="tspan428">Portion</tspan></text><rect
+           id="tspan438">Serving</tspan></text><rect
          style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.143022;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-9"
          width="130"
@@ -258,10 +246,10 @@
        inkscape:label="title-text"><tspan
          x="64.501158"
          y="28.874095"
-         id="tspan430">Baked </tspan><tspan
+         id="tspan440">Baked </tspan><tspan
          x="46.43894"
          y="64.151847"
-         id="tspan432">potatoes</tspan></text><rect
+         id="tspan442">potatoes</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.200587;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="210"
