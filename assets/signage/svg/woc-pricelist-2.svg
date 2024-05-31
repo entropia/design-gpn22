@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="woc-pricelist.svg"
+   sodipodi:docname="woc-pricelist-2.svg"
    inkscape:export-filename="preisliste-bar.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,8 +29,8 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.83472924"
-     inkscape:cx="225.82173"
-     inkscape:cy="561.85884"
+     inkscape:cx="587.0167"
+     inkscape:cy="543.88894"
      inkscape:window-width="1920"
      inkscape:window-height="1007"
      inkscape:window-x="0"
@@ -40,7 +40,7 @@
      id="defs38013"><color-profile
        name="Artifex-PS-CMYK-Profile"
        xlink:href="file:///usr/share/color/icc/ghostscript/gray_to_k.icc"
-       id="color-profile2622" /><rect
+       id="color-profile3501" /><rect
        x="68.846107"
        y="74.011635"
        width="1015.8254"
@@ -82,31 +82,35 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan2660">.~ .~ .~ .~ .~
+           id="tspan3536">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan2662">.~ .~ .~ .~ .~
+           id="tspan3538">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan2664">.~ .~ .~ .~ .~
+           id="tspan3540">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan2666">.~ .~ .~ .~ .~
+           id="tspan3542">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan2668">.~ .~ .~ .~ .~
+           id="tspan3544">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="111.49842"
-           id="tspan2670">.~ .~ .~ .~ .~
+           id="tspan3546">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="122.04101"
-           id="tspan2672">.~ .~ .~ .~ .~</tspan></text><rect
+           id="tspan3548">.~ .~ .~ .~ .~
+</tspan><tspan
+           x="2"
+           y="132.5836"
+           id="tspan3550">.~ .~ .~ .~ .~</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.15208;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-1"
          width="35"
@@ -124,27 +128,31 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan2674">
+           id="tspan3552">
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan2676">! 1 .5 0
+           id="tspan3554">! 1 .5 0
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan2678">! 1 .0 0
+           id="tspan3556">! 1 .0 0
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan2680">
+           id="tspan3558">! 2 .0 0
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan2682">! 1 .0 0
+           id="tspan3560">
 </tspan><tspan
            x="2"
            y="111.49842"
-           id="tspan2684">! 0 .5 0
+           id="tspan3562">! 1 .0 0
+</tspan><tspan
+           x="2"
+           y="122.04101"
+           id="tspan3564">! 0 .5 0
 </tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.147666;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-6"
@@ -159,30 +167,35 @@
        x="175.98752"
        y="121.33862"
        id="text1536"
-       inkscape:label="subtext-text"><tspan
+       inkscape:label="subtext-text"
+       transform="translate(-0.95090715)"><tspan
          x="167"
          y="57.747003"
-         id="tspan2686">
+         id="tspan3566">
 </tspan><tspan
          x="44.207866"
          y="68.330339"
-         id="tspan2688">Waffles (any kind, with topping)
+         id="tspan3568">Waffles (any kind, with topping)
 </tspan><tspan
          x="102.46708"
          y="78.913675"
-         id="tspan2690">Waffle on a stick
+         id="tspan3570">Waffle on a stick
+</tspan><tspan
+         x="91.308014"
+         y="89.497011"
+         id="tspan3572">3 Waffles on a stick
 </tspan><tspan
          x="167"
-         y="89.497011"
-         id="tspan2692">
+         y="100.08035"
+         id="tspan3574">
 </tspan><tspan
          x="100.60441"
-         y="100.08035"
-         id="tspan2694">Ice Cream Waffle
+         y="110.66368"
+         id="tspan3576">Ice Cream Waffle
 </tspan><tspan
          x="101.58654"
-         y="110.66368"
-         id="tspan2696">Ball of Ice Cream
+         y="121.24702"
+         id="tspan3578">Ball of Ice Cream
 </tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.322109;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
@@ -200,7 +213,7 @@
        inkscape:label="title-text"><tspan
          x="30.366449"
          y="41.785752"
-         id="tspan2698">Waffles</tspan></text><rect
+         id="tspan3580">Waffles</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.237069;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="200"
@@ -208,4 +221,57 @@
        x="5"
        y="-8.8817842e-16"
        inkscape:label="titel-box"
-       sodipodi:insensitive="true" /></g></svg>
+       sodipodi:insensitive="true" /><text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531-2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.649776"
+       y="121.33862"
+       id="text1536-2"
+       inkscape:label="subtext-text"><tspan
+         x="12.5"
+         y="92.293878"
+         id="tspan3582">
+</tspan><tspan
+         x="12.5"
+         y="102.87721"
+         id="tspan3584">
+</tspan><tspan
+         x="12.5"
+         y="113.46055"
+         id="tspan3586">
+</tspan><tspan
+         x="12.5"
+         y="124.04389"
+         id="tspan3588">
+</tspan><tspan
+         x="12.5"
+         y="134.62722"
+         id="tspan3590">
+</tspan><tspan
+         x="12.5"
+         y="145.21057"
+         id="tspan3592">
+</tspan><tspan
+         x="12.5"
+         y="155.79391"
+         id="tspan3594">
+</tspan><tspan
+         x="12.5"
+         y="166.37725"
+         id="tspan3596">All waffle prices include a topping. Toppings </tspan><tspan
+         x="12.5"
+         y="176.9606"
+         id="tspan3598">include powdered sugar, apple-sauce vanilla-</tspan><tspan
+         x="12.5"
+         y="187.54394"
+         id="tspan3600">pudding, chocolate-pudding, cream and </tspan><tspan
+         x="12.5"
+         y="198.12728"
+         id="tspan3602">nutella.</tspan></text><rect
+       style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.349651;stroke-linejoin:round;stop-color:#000000"
+       id="rect1531-2"
+       width="185"
+       height="210"
+       x="12.5"
+       y="84.547493"
+       inkscape:label="subtext-box" /></g></svg>

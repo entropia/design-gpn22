@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="safer-smoking-area.svg"
+   sodipodi:docname="safer-smoking-area-3.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -30,7 +30,7 @@
      showgrid="false"
      inkscape:zoom="0.81700998"
      inkscape:cx="547.11694"
-     inkscape:cy="419.21153"
+     inkscape:cy="420.4355"
      inkscape:window-width="1857"
      inkscape:window-height="1080"
      inkscape:window-x="0"
@@ -75,31 +75,34 @@
        inkscape:label="subtext-text"><tspan
          x="148.5"
          y="67.747003"
-         id="tspan1959">
+         id="tspan2037">
 </tspan><tspan
          x="148.5"
          y="78.330339"
-         id="tspan1961">
+         id="tspan2039">
 </tspan><tspan
          x="148.5"
          y="88.913675"
-         id="tspan1963">
+         id="tspan2041">
 </tspan><tspan
          x="148.5"
          y="99.497011"
-         id="tspan1965">
+         id="tspan2043">
 </tspan><tspan
          x="148.5"
          y="110.08035"
-         id="tspan1967">
+         id="tspan2045">
 </tspan><tspan
          x="148.5"
          y="120.66368"
-         id="tspan1969">
+         id="tspan2047">
 </tspan><tspan
-         x="34.394702"
+         x="19.908234"
          y="131.24702"
-         id="tspan1971">Please also keep the wind direction in mind while smoking!</tspan></text><rect
+         id="tspan2049">Smoking tastes 20% better here so you should do it here and here </tspan><tspan
+         x="64.866255"
+         y="141.83036"
+         id="tspan2051">only, for the most optimal GPN experience.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -114,13 +117,12 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="75.856031"
          y="41.785752"
-         id="tspan1973">
-</tspan><tspan
-         x="14.007139"
+         id="tspan2053">Did you </tspan><tspan
+         x="85.359885"
          y="94.702378"
-         id="tspan1975">Smoking Area</tspan></text><rect
+         id="tspan2055">know?</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="safer-smoking-area.svg"
+   sodipodi:docname="safer-no-smoking-ipv4.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -68,38 +68,44 @@
        inkscape:label="Footer"
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="161.03117"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="47.649776"
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
-         x="148.5"
+         x="18.5"
          y="67.747003"
-         id="tspan1959">
+         id="tspan1703">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="78.330339"
-         id="tspan1961">
+         id="tspan1705">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="88.913675"
-         id="tspan1963">
+         id="tspan1707">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="99.497011"
-         id="tspan1965">
+         id="tspan1709">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="110.08035"
-         id="tspan1967">
+         id="tspan1711">
 </tspan><tspan
-         x="148.5"
+         x="18.5"
          y="120.66368"
-         id="tspan1969">
+         id="tspan1713">
 </tspan><tspan
-         x="34.394702"
+         x="18.5"
          y="131.24702"
-         id="tspan1971">Please also keep the wind direction in mind while smoking!</tspan></text><rect
+         id="tspan1715">Smoking and related activities of any kind are absolutely not </tspan><tspan
+         x="18.5"
+         y="141.83036"
+         id="tspan1717">permitted in thsi area as they kill IPv6 packets. Keep the network </tspan><tspan
+         x="18.5"
+         y="152.41371"
+         id="tspan1719">up and smoke in one of the designated areas.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -114,13 +120,13 @@
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="148.5"
+         x="20.992092"
          y="41.785752"
-         id="tspan1973">
+         id="tspan1721">Smoking kills
 </tspan><tspan
-         x="14.007139"
+         x="23.997842"
          y="94.702378"
-         id="tspan1975">Smoking Area</tspan></text><rect
+         id="tspan1723">IPv6 Packets</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"
