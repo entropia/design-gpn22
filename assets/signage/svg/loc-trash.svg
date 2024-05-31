@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="etc-accessible-toilet.svg"
+   sodipodi:docname="loc-trash.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,7 +29,7 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.81700998"
-     inkscape:cx="549.56489"
+     inkscape:cx="547.11694"
      inkscape:cy="417.98755"
      inkscape:window-width="1857"
      inkscape:window-height="1211"
@@ -69,45 +69,33 @@
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect1531);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;text-align:center"
-       x="137.35837"
+       x="122.9481"
        y="121.33862"
        id="text1536"
        inkscape:label="subtext-text"><tspan
          x="148.5"
          y="67.747003"
-         id="tspan345">
+         id="tspan447">
 </tspan><tspan
          x="148.5"
          y="78.330339"
-         id="tspan347">
+         id="tspan449">
 </tspan><tspan
          x="148.5"
          y="88.913675"
-         id="tspan349">
+         id="tspan451">
 </tspan><tspan
          x="148.5"
          y="99.497011"
-         id="tspan351">
+         id="tspan453">
 </tspan><tspan
          x="148.5"
          y="110.08035"
-         id="tspan353">
+         id="tspan455">
 </tspan><tspan
-         x="91.434654"
+         x="72.477769"
          y="120.66368"
-         id="tspan355">Key available at the Infodesk.
-</tspan><tspan
-         x="67.118404"
-         y="131.24702"
-         id="tspan357">Nighttime, after 02:00 please go to safeR.
-</tspan><tspan
-         x="148.5"
-         y="141.83036"
-         id="tspan359">
-</tspan><tspan
-         x="52.708118"
-         y="152.41371"
-         id="tspan362">Not an Eurokey lock. Sorry for the inconvenience.</tspan></text><rect
+         id="tspan457">DO NOT USE! These are HfG Trashcans.</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531"
        width="260"
@@ -118,16 +106,17 @@
        sodipodi:insensitive="true" /><text
        xml:space="preserve"
        id="text1012"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.3333px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:31.75px;line-height:125%;font-family:Oxanium;-inkscape-font-specification:'Oxanium, @wght=400';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 400;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect767);shape-padding:3.0499;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="372.47992"
        y="0"
        inkscape:label="title-text"><tspan
-         x="45.460784"
-         y="41.785752"
-         id="tspan364">Accessible </tspan><tspan
-         x="96.811051"
-         y="94.702378"
-         id="tspan366">toilet</tspan></text><rect
+         x="18.198027"
+         y="32.102031"
+         id="tspan459">GPN Trash only to
+</tspan><tspan
+         x="38.264026"
+         y="71.789531"
+         id="tspan461">GPN Trashcans</tspan></text><rect
        style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.283989;stroke-linejoin:round;stop-color:#000000"
        id="rect767"
        width="287"

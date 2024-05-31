@@ -8,7 +8,7 @@
    version="1.1"
    id="svg38016"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   sodipodi:docname="breakfast-pricelist-landscape.svg"
+   sodipodi:docname="breakfast-pricelist.svg"
    inkscape:export-filename="schild-b.png"
    inkscape:export-xdpi="100"
    inkscape:export-ydpi="100"
@@ -29,14 +29,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.66477295"
-     inkscape:cx="670.15362"
+     inkscape:cx="671.65789"
      inkscape:cy="173.74353"
-     inkscape:window-width="1857"
-     inkscape:window-height="1080"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1548"
+     inkscape:window-height="1241"
+     inkscape:window-x="118"
+     inkscape:window-y="18"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" /><defs
+     inkscape:current-layer="layer3" /><defs
      id="defs38013"><rect
        x="68.846108"
        y="74.011637"
@@ -92,11 +92,11 @@
        transform="translate(0,-41.785752)"><tspan
          x="148.5"
          y="41.785752"
-         id="tspan1162">
+         id="tspan377">
 </tspan><tspan
          x="54.012137"
          y="94.702378"
-         id="tspan1164">Breakfast</tspan></text><g
+         id="tspan379">Breakfast</tspan></text><g
        inkscape:groupmode="layer"
        id="layer3"
        inkscape:label="Numbers"
@@ -110,27 +110,31 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan1166">.~ .~ .~ .~ .~
+           id="tspan381">
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan1168">.~ .~ .~ .~ .~
+           id="tspan383">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan1170">.~ .~ .~ .~ .~
+           id="tspan385">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan1172">.~ .~ .~ .~ .~
+           id="tspan387">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan1174">.~ .~ .~ .~ .~
+           id="tspan389">.~ .~ .~ .~ .~
 </tspan><tspan
            x="2"
            y="111.49842"
-           id="tspan1176">
+           id="tspan391">.~ .~ .~ .~ .~
+</tspan><tspan
+           x="2"
+           y="122.04101"
+           id="tspan393">
 </tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.15208;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-1"
@@ -149,27 +153,23 @@
          transform="translate(1.3125e-6)"><tspan
            x="2"
            y="58.785488"
-           id="tspan1178">
+           id="tspan395">
 </tspan><tspan
            x="2"
            y="69.328075"
-           id="tspan1180">! 1 .5 0
+           id="tspan397">
 </tspan><tspan
            x="2"
            y="79.870662"
-           id="tspan1182">! 0 .5 0
+           id="tspan399">! 1 .5 0
 </tspan><tspan
            x="2"
            y="90.41325"
-           id="tspan1184">! 1 .5 0
+           id="tspan401">! 0 .5 0
 </tspan><tspan
            x="2"
            y="100.95584"
-           id="tspan1186">
-</tspan><tspan
-           x="2"
-           y="111.49842"
-           id="tspan1188">! </tspan></text><rect
+           id="tspan403">! 1 .5 0</tspan></text><rect
          style="font-variation-settings:'wght' 400;display:inline;fill:none;fill-opacity:1;stroke-width:0.147666;stroke-linejoin:round;stop-color:#000000"
          id="rect1531-3-6"
          width="33"
@@ -185,21 +185,25 @@
        id="text1536"
        inkscape:label="subtext-text"
        transform="translate(0.28801683)"><tspan
-         x="207"
+         x="93.766766"
          y="72.604425"
-         id="tspan1190">
+         id="tspan405">Donation Recommendations:
+</tspan><tspan
+         x="207"
+         y="83.187761"
+         id="tspan407">
 </tspan><tspan
          x="164.59894"
-         y="83.187761"
-         id="tspan1192">1 Breadroll
-</tspan><tspan
-         x="182.17573"
          y="93.771097"
-         id="tspan1194">Cereal
+         id="tspan409">1 Breadroll
+</tspan><tspan
+         x="143.79634"
+         y="104.35443"
+         id="tspan411">1 bowl of cerials
 </tspan><tspan
          x="146.17549"
-         y="104.35443"
-         id="tspan1196">1 Piece of Fruit 
+         y="114.93777"
+         id="tspan413">1 Piece of Fruit 
 </tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.322109;stroke-linejoin:round;stop-color:#000000"
        id="rect1531-9"
@@ -226,27 +230,31 @@
        transform="translate(-0.038099,14.122293)"><tspan
          x="147.26172"
          y="74.362237"
-         id="tspan1198">
+         id="tspan415">
 </tspan><tspan
          x="147.26172"
          y="84.945573"
-         id="tspan1200">
+         id="tspan417">
 </tspan><tspan
          x="147.26172"
          y="95.528909"
-         id="tspan1202">
+         id="tspan419">
 </tspan><tspan
          x="147.26172"
          y="106.11225"
-         id="tspan1204">
+         id="tspan421">
 </tspan><tspan
          x="147.26172"
          y="116.69558"
-         id="tspan1206">
+         id="tspan423">
 </tspan><tspan
-         x="87.012909"
+         x="147.26172"
          y="127.27892"
-         id="tspan1208">All items are at least vegitarian</tspan></text><rect
+         id="tspan425">
+</tspan><tspan
+         x="85.598977"
+         y="137.86225"
+         id="tspan427">All items are at least vegetarian</tspan></text><rect
        style="font-variation-settings:'wght' 400;fill:none;fill-opacity:1;stroke-width:0.293103;stroke-linejoin:round;stop-color:#000000"
        id="rect1531-1"
        width="260"
